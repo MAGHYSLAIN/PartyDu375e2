@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: b1f26a305917791449ba77c8221d3af5
+timeCreated: 1495889582
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Flubber
+  fontNames:
+  - Flubber
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

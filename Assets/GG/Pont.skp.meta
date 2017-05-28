@@ -1,0 +1,1917 @@
+fileFormatVersion: 2
+guid: eba96a4ccd398ba43bd9114a0819b010
+timeCreated: 1495901562
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000120000001300000014000000150000001600000017000000180000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b0100009c0100009d0100009e0100009f010000a0010000a1010000a2010000a3010000a4010000a5010000a6010000a7010000a8010000a9010000aa010000ab010000ac010000ad010000ae010000af010000b0010000b1010000b2010000b3010000b4010000b5010000b6010000b7010000b8010000b9010000ba010000bb010000bc010000bd010000be010000bf010000c0010000c1010000c2010000c3010000c4010000c5010000c6010000c7010000c8010000c9010000ca010000cb010000cc010000cd010000ce010000cf010000d0010000d1010000d2010000d3010000d4010000d5010000d6010000d7010000d8010000d9010000da010000db010000dc010000dd010000de010000df010000e0010000e1010000e2010000e3010000e4010000e5010000e6010000e7010000e8010000e9010000ea010000eb010000ec010000ed010000ee010000ef010000f0010000f1010000f2010000f3010000f4010000f5010000f6010000f7010000f8010000f9010000fa010000fb010000fc010000fd010000fe010000ff010000000200000102000002020000030200000402000005020000060200000702000008020000090200000a0200000b0200000c0200000d0200000e0200000f020000100200001102000012020000130200001402000015020000160200001702000018020000190200001a0200001b0200001c0200001d0200001e0200001f020000200200002102000022020000230200002402000025020000260200002702000028020000290200002a0200002b0200002c0200002d0200002e0200002f020000300200003102000032020000330200003402000035020000360200003702000038020000390200003a0200003b0200003c0200003d0200003e0200003f020000400200004102000042020000430200004402000045020000460200004702000048020000490200004a0200004b0200004c0200004d0200004e0200004f020000500200005102000052020000530200005402000055020000560200005702000058020000590200005a0200005b0200005c0200005d0200005e0200005f020000600200006102000062020000630200006402000065020000660200006702000068020000690200006a0200006b0200006c0200006d0200006e0200006f020000700200007102000072020000730200007402000075020000760200007702000078020000790200007a0200007b0200007c0200007d0200007e0200007f020000800200008102000082020000830200008402000085020000860200008702000088020000890200008a0200008b0200008c0200008d0200008e0200008f020000900200009102000092020000930200009402000095020000960200009702000098020000990200009a0200009b0200009c0200009d0200009e0200009f020000a0020000a1020000a2020000a3020000a4020000a5020000a6020000a7020000a8020000a9020000aa020000ab020000ac020000ad020000ae020000af020000b0020000b1020000b2020000b3020000b4020000b5020000b6020000b7020000b8020000b9020000ba020000bb020000bc020000bd020000be020000bf020000c0020000c1020000c2020000c3020000c4020000c5020000c6020000c7020000c8020000c9020000ca020000cb020000cc020000cd020000ce020000cf020000d0020000d1020000d2020000d3020000d4020000d5020000d6020000d7020000d8020000d9020000da020000db020000dc020000dd020000de020000df020000e0020000e1020000e2020000e3020000e4020000e5020000e6020000e7020000e8020000e9020000ea020000eb020000ec020000ed020000ee020000ef020000f0020000f1020000f2020000f3020000f4020000f5020000f6020000f7020000f8020000f9020000fa020000fb020000fc020000fd020000fe020000ff020000000300000103000002030000030300000403000005030000060300000703000008030000090300000a0300000b0300000c0300000d0300000e0300000f030000100300001103000012030000130300001403000015030000160300001703000018030000190300001a0300001b0300001c0300001d0300001e0300001f030000200300002103000022030000230300002403000025030000260300002703000028030000290300002a0300002b0300002c0300002d0300002e0300002f030000300300003103000032030000330300003403000035030000360300003703000038030000390300003a0300003b0300003c0300003d0300003e0300003f030000400300004103000042030000430300004403000045030000460300004703000048030000490300004a0300004b0300004c0300004d0300004e0300004f030000500300005103000052030000530300005403000055030000560300005703000058030000590300005a0300005b0300005c0300005d0300005e0300005f030000600300006103000062030000630300006403000065030000660300006703000068030000690300006a0300006b0300006c0300006d0300006e0300006f030000700300007103000072030000730300007403000075030000760300007703000078030000790300007a0300007b0300007c0300007d0300007e0300007f030000800300008103000082030000830300008403000085030000860300008703000088030000890300008a0300008b0300008c030000
+  assetHash:
+    serializedVersion: 2
+    Hash: 1c8021372ca6e98637fcc3532671524f
+  longitude: -73.54428781630047
+  latitude: 45.52323306797519
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 495.21933, y: 155.42035, z: -478.86896}
+      lookAt: {x: 4.392765, y: -159.82442, z: 241.71526}
+      up: {x: -0.19142325, y: 0.94041467, z: 0.28102916}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Component#2
+    100002: Component#4
+    100004: Component#4 1
+    100006: Component#5
+    100008: Component#5 1
+    100010: Component#6
+    100012: Component#6 1
+    100014: Component#7
+    100016: eastside
+    100018: eastside 1
+    100020: Group 11
+    100022: Group 15
+    100024: Group 19
+    100026: Group 30
+    100028: Group 4
+    100030: Group 5
+    100032: Group 7
+    100034: Lisanne
+    100036: pilier
+    100038: pilier3
+    100040: pilier3 1
+    100042: pilier3 2
+    100044: pilier3 3
+    100046: pillier1
+    100048: pillier1 1
+    100050: pillier2
+    100052: pillier2 1
+    100054: //RootNode
+    100056: Pont Jacques-Cartier
+    100058: poutre hrisontal
+    100060: poutre hrisontal 1
+    100062: poutre hrisontal 10
+    100064: poutre hrisontal 100
+    100066: poutre hrisontal 101
+    100068: poutre hrisontal 102
+    100070: poutre hrisontal 103
+    100072: poutre hrisontal 104
+    100074: poutre hrisontal 105
+    100076: poutre hrisontal 106
+    100078: poutre hrisontal 107
+    100080: poutre hrisontal 108
+    100082: poutre hrisontal 109
+    100084: poutre hrisontal 11
+    100086: poutre hrisontal 110
+    100088: poutre hrisontal 111
+    100090: poutre hrisontal 112
+    100092: poutre hrisontal 113
+    100094: poutre hrisontal 114
+    100096: poutre hrisontal 115
+    100098: poutre hrisontal 116
+    100100: poutre hrisontal 117
+    100102: poutre hrisontal 118
+    100104: poutre hrisontal 119
+    100106: poutre hrisontal 12
+    100108: poutre hrisontal 120
+    100110: poutre hrisontal 121
+    100112: poutre hrisontal 122
+    100114: poutre hrisontal 123
+    100116: poutre hrisontal 124
+    100118: poutre hrisontal 125
+    100120: poutre hrisontal 126
+    100122: poutre hrisontal 127
+    100124: poutre hrisontal 128
+    100126: poutre hrisontal 129
+    100128: poutre hrisontal 13
+    100130: poutre hrisontal 130
+    100132: poutre hrisontal 131
+    100134: poutre hrisontal 132
+    100136: poutre hrisontal 133
+    100138: poutre hrisontal 134
+    100140: poutre hrisontal 135
+    100142: poutre hrisontal 136
+    100144: poutre hrisontal 137
+    100146: poutre hrisontal 138
+    100148: poutre hrisontal 139
+    100150: poutre hrisontal 14
+    100152: poutre hrisontal 140
+    100154: poutre hrisontal 141
+    100156: poutre hrisontal 142
+    100158: poutre hrisontal 143
+    100160: poutre hrisontal 144
+    100162: poutre hrisontal 145
+    100164: poutre hrisontal 146
+    100166: poutre hrisontal 147
+    100168: poutre hrisontal 148
+    100170: poutre hrisontal 149
+    100172: poutre hrisontal 15
+    100174: poutre hrisontal 150
+    100176: poutre hrisontal 151
+    100178: poutre hrisontal 152
+    100180: poutre hrisontal 153
+    100182: poutre hrisontal 154
+    100184: poutre hrisontal 155
+    100186: poutre hrisontal 156
+    100188: poutre hrisontal 157
+    100190: poutre hrisontal 158
+    100192: poutre hrisontal 159
+    100194: poutre hrisontal 16
+    100196: poutre hrisontal 160
+    100198: poutre hrisontal 161
+    100200: poutre hrisontal 162
+    100202: poutre hrisontal 163
+    100204: poutre hrisontal 164
+    100206: poutre hrisontal 165
+    100208: poutre hrisontal 166
+    100210: poutre hrisontal 167
+    100212: poutre hrisontal 168
+    100214: poutre hrisontal 169
+    100216: poutre hrisontal 17
+    100218: poutre hrisontal 170
+    100220: poutre hrisontal 171
+    100222: poutre hrisontal 172
+    100224: poutre hrisontal 173
+    100226: poutre hrisontal 174
+    100228: poutre hrisontal 175
+    100230: poutre hrisontal 176
+    100232: poutre hrisontal 177
+    100234: poutre hrisontal 178
+    100236: poutre hrisontal 179
+    100238: poutre hrisontal 18
+    100240: poutre hrisontal 180
+    100242: poutre hrisontal 181
+    100244: poutre hrisontal 182
+    100246: poutre hrisontal 183
+    100248: poutre hrisontal 184
+    100250: poutre hrisontal 185
+    100252: poutre hrisontal 186
+    100254: poutre hrisontal 187
+    100256: poutre hrisontal 188
+    100258: poutre hrisontal 189
+    100260: poutre hrisontal 19
+    100262: poutre hrisontal 190
+    100264: poutre hrisontal 191
+    100266: poutre hrisontal 192
+    100268: poutre hrisontal 193
+    100270: poutre hrisontal 194
+    100272: poutre hrisontal 195
+    100274: poutre hrisontal 196
+    100276: poutre hrisontal 197
+    100278: poutre hrisontal 198
+    100280: poutre hrisontal 199
+    100282: poutre hrisontal 2
+    100284: poutre hrisontal 20
+    100286: poutre hrisontal 200
+    100288: poutre hrisontal 201
+    100290: poutre hrisontal 202
+    100292: poutre hrisontal 203
+    100294: poutre hrisontal 204
+    100296: poutre hrisontal 205
+    100298: poutre hrisontal 206
+    100300: poutre hrisontal 207
+    100302: poutre hrisontal 208
+    100304: poutre hrisontal 209
+    100306: poutre hrisontal 21
+    100308: poutre hrisontal 210
+    100310: poutre hrisontal 211
+    100312: poutre hrisontal 212
+    100314: poutre hrisontal 213
+    100316: poutre hrisontal 214
+    100318: poutre hrisontal 215
+    100320: poutre hrisontal 216
+    100322: poutre hrisontal 217
+    100324: poutre hrisontal 218
+    100326: poutre hrisontal 219
+    100328: poutre hrisontal 22
+    100330: poutre hrisontal 220
+    100332: poutre hrisontal 221
+    100334: poutre hrisontal 222
+    100336: poutre hrisontal 223
+    100338: poutre hrisontal 224
+    100340: poutre hrisontal 225
+    100342: poutre hrisontal 226
+    100344: poutre hrisontal 227
+    100346: poutre hrisontal 228
+    100348: poutre hrisontal 229
+    100350: poutre hrisontal 23
+    100352: poutre hrisontal 230
+    100354: poutre hrisontal 231
+    100356: poutre hrisontal 232
+    100358: poutre hrisontal 233
+    100360: poutre hrisontal 234
+    100362: poutre hrisontal 235
+    100364: poutre hrisontal 236
+    100366: poutre hrisontal 237
+    100368: poutre hrisontal 238
+    100370: poutre hrisontal 239
+    100372: poutre hrisontal 24
+    100374: poutre hrisontal 240
+    100376: poutre hrisontal 241
+    100378: poutre hrisontal 242
+    100380: poutre hrisontal 243
+    100382: poutre hrisontal 244
+    100384: poutre hrisontal 245
+    100386: poutre hrisontal 246
+    100388: poutre hrisontal 247
+    100390: poutre hrisontal 248
+    100392: poutre hrisontal 249
+    100394: poutre hrisontal 25
+    100396: poutre hrisontal 250
+    100398: poutre hrisontal 251
+    100400: poutre hrisontal 252
+    100402: poutre hrisontal 253
+    100404: poutre hrisontal 254
+    100406: poutre hrisontal 255
+    100408: poutre hrisontal 256
+    100410: poutre hrisontal 257
+    100412: poutre hrisontal 258
+    100414: poutre hrisontal 259
+    100416: poutre hrisontal 26
+    100418: poutre hrisontal 260
+    100420: poutre hrisontal 261
+    100422: poutre hrisontal 262
+    100424: poutre hrisontal 263
+    100426: poutre hrisontal 264
+    100428: poutre hrisontal 265
+    100430: poutre hrisontal 266
+    100432: poutre hrisontal 267
+    100434: poutre hrisontal 268
+    100436: poutre hrisontal 269
+    100438: poutre hrisontal 27
+    100440: poutre hrisontal 270
+    100442: poutre hrisontal 271
+    100444: poutre hrisontal 272
+    100446: poutre hrisontal 273
+    100448: poutre hrisontal 274
+    100450: poutre hrisontal 275
+    100452: poutre hrisontal 276
+    100454: poutre hrisontal 277
+    100456: poutre hrisontal 278
+    100458: poutre hrisontal 279
+    100460: poutre hrisontal 28
+    100462: poutre hrisontal 280
+    100464: poutre hrisontal 281
+    100466: poutre hrisontal 282
+    100468: poutre hrisontal 283
+    100470: poutre hrisontal 284
+    100472: poutre hrisontal 285
+    100474: poutre hrisontal 286
+    100476: poutre hrisontal 287
+    100478: poutre hrisontal 288
+    100480: poutre hrisontal 289
+    100482: poutre hrisontal 29
+    100484: poutre hrisontal 290
+    100486: poutre hrisontal 291
+    100488: poutre hrisontal 292
+    100490: poutre hrisontal 293
+    100492: poutre hrisontal 294
+    100494: poutre hrisontal 295
+    100496: poutre hrisontal 296
+    100498: poutre hrisontal 297
+    100500: poutre hrisontal 298
+    100502: poutre hrisontal 299
+    100504: poutre hrisontal 3
+    100506: poutre hrisontal 30
+    100508: poutre hrisontal 300
+    100510: poutre hrisontal 301
+    100512: poutre hrisontal 302
+    100514: poutre hrisontal 303
+    100516: poutre hrisontal 304
+    100518: poutre hrisontal 305
+    100520: poutre hrisontal 306
+    100522: poutre hrisontal 307
+    100524: poutre hrisontal 308
+    100526: poutre hrisontal 309
+    100528: poutre hrisontal 31
+    100530: poutre hrisontal 310
+    100532: poutre hrisontal 311
+    100534: poutre hrisontal 312
+    100536: poutre hrisontal 313
+    100538: poutre hrisontal 314
+    100540: poutre hrisontal 315
+    100542: poutre hrisontal 316
+    100544: poutre hrisontal 317
+    100546: poutre hrisontal 318
+    100548: poutre hrisontal 319
+    100550: poutre hrisontal 32
+    100552: poutre hrisontal 320
+    100554: poutre hrisontal 321
+    100556: poutre hrisontal 322
+    100558: poutre hrisontal 323
+    100560: poutre hrisontal 324
+    100562: poutre hrisontal 325
+    100564: poutre hrisontal 326
+    100566: poutre hrisontal 327
+    100568: poutre hrisontal 328
+    100570: poutre hrisontal 329
+    100572: poutre hrisontal 33
+    100574: poutre hrisontal 330
+    100576: poutre hrisontal 331
+    100578: poutre hrisontal 332
+    100580: poutre hrisontal 333
+    100582: poutre hrisontal 334
+    100584: poutre hrisontal 335
+    100586: poutre hrisontal 336
+    100588: poutre hrisontal 337
+    100590: poutre hrisontal 338
+    100592: poutre hrisontal 339
+    100594: poutre hrisontal 34
+    100596: poutre hrisontal 340
+    100598: poutre hrisontal 341
+    100600: poutre hrisontal 342
+    100602: poutre hrisontal 343
+    100604: poutre hrisontal 344
+    100606: poutre hrisontal 345
+    100608: poutre hrisontal 346
+    100610: poutre hrisontal 347
+    100612: poutre hrisontal 348
+    100614: poutre hrisontal 349
+    100616: poutre hrisontal 35
+    100618: poutre hrisontal 350
+    100620: poutre hrisontal 351
+    100622: poutre hrisontal 352
+    100624: poutre hrisontal 353
+    100626: poutre hrisontal 354
+    100628: poutre hrisontal 355
+    100630: poutre hrisontal 356
+    100632: poutre hrisontal 357
+    100634: poutre hrisontal 358
+    100636: poutre hrisontal 359
+    100638: poutre hrisontal 36
+    100640: poutre hrisontal 360
+    100642: poutre hrisontal 361
+    100644: poutre hrisontal 362
+    100646: poutre hrisontal 363
+    100648: poutre hrisontal 364
+    100650: poutre hrisontal 365
+    100652: poutre hrisontal 366
+    100654: poutre hrisontal 367
+    100656: poutre hrisontal 368
+    100658: poutre hrisontal 369
+    100660: poutre hrisontal 37
+    100662: poutre hrisontal 370
+    100664: poutre hrisontal 371
+    100666: poutre hrisontal 372
+    100668: poutre hrisontal 373
+    100670: poutre hrisontal 374
+    100672: poutre hrisontal 375
+    100674: poutre hrisontal 376
+    100676: poutre hrisontal 377
+    100678: poutre hrisontal 378
+    100680: poutre hrisontal 379
+    100682: poutre hrisontal 38
+    100684: poutre hrisontal 380
+    100686: poutre hrisontal 381
+    100688: poutre hrisontal 382
+    100690: poutre hrisontal 383
+    100692: poutre hrisontal 384
+    100694: poutre hrisontal 385
+    100696: poutre hrisontal 386
+    100698: poutre hrisontal 387
+    100700: poutre hrisontal 388
+    100702: poutre hrisontal 389
+    100704: poutre hrisontal 39
+    100706: poutre hrisontal 390
+    100708: poutre hrisontal 391
+    100710: poutre hrisontal 392
+    100712: poutre hrisontal 393
+    100714: poutre hrisontal 394
+    100716: poutre hrisontal 395
+    100718: poutre hrisontal 396
+    100720: poutre hrisontal 397
+    100722: poutre hrisontal 398
+    100724: poutre hrisontal 399
+    100726: poutre hrisontal 4
+    100728: poutre hrisontal 40
+    100730: poutre hrisontal 400
+    100732: poutre hrisontal 401
+    100734: poutre hrisontal 402
+    100736: poutre hrisontal 403
+    100738: poutre hrisontal 404
+    100740: poutre hrisontal 405
+    100742: poutre hrisontal 406
+    100744: poutre hrisontal 407
+    100746: poutre hrisontal 408
+    100748: poutre hrisontal 409
+    100750: poutre hrisontal 41
+    100752: poutre hrisontal 410
+    100754: poutre hrisontal 411
+    100756: poutre hrisontal 412
+    100758: poutre hrisontal 413
+    100760: poutre hrisontal 414
+    100762: poutre hrisontal 415
+    100764: poutre hrisontal 416
+    100766: poutre hrisontal 417
+    100768: poutre hrisontal 418
+    100770: poutre hrisontal 419
+    100772: poutre hrisontal 42
+    100774: poutre hrisontal 420
+    100776: poutre hrisontal 421
+    100778: poutre hrisontal 422
+    100780: poutre hrisontal 423
+    100782: poutre hrisontal 424
+    100784: poutre hrisontal 425
+    100786: poutre hrisontal 426
+    100788: poutre hrisontal 427
+    100790: poutre hrisontal 428
+    100792: poutre hrisontal 429
+    100794: poutre hrisontal 43
+    100796: poutre hrisontal 44
+    100798: poutre hrisontal 45
+    100800: poutre hrisontal 46
+    100802: poutre hrisontal 47
+    100804: poutre hrisontal 48
+    100806: poutre hrisontal 49
+    100808: poutre hrisontal 5
+    100810: poutre hrisontal 50
+    100812: poutre hrisontal 51
+    100814: poutre hrisontal 52
+    100816: poutre hrisontal 53
+    100818: poutre hrisontal 54
+    100820: poutre hrisontal 55
+    100822: poutre hrisontal 56
+    100824: poutre hrisontal 57
+    100826: poutre hrisontal 58
+    100828: poutre hrisontal 59
+    100830: poutre hrisontal 6
+    100832: poutre hrisontal 60
+    100834: poutre hrisontal 61
+    100836: poutre hrisontal 62
+    100838: poutre hrisontal 63
+    100840: poutre hrisontal 64
+    100842: poutre hrisontal 65
+    100844: poutre hrisontal 66
+    100846: poutre hrisontal 67
+    100848: poutre hrisontal 68
+    100850: poutre hrisontal 69
+    100852: poutre hrisontal 7
+    100854: poutre hrisontal 70
+    100856: poutre hrisontal 71
+    100858: poutre hrisontal 72
+    100860: poutre hrisontal 73
+    100862: poutre hrisontal 74
+    100864: poutre hrisontal 75
+    100866: poutre hrisontal 76
+    100868: poutre hrisontal 77
+    100870: poutre hrisontal 78
+    100872: poutre hrisontal 79
+    100874: poutre hrisontal 8
+    100876: poutre hrisontal 80
+    100878: poutre hrisontal 81
+    100880: poutre hrisontal 82
+    100882: poutre hrisontal 83
+    100884: poutre hrisontal 84
+    100886: poutre hrisontal 85
+    100888: poutre hrisontal 86
+    100890: poutre hrisontal 87
+    100892: poutre hrisontal 88
+    100894: poutre hrisontal 89
+    100896: poutre hrisontal 9
+    100898: poutre hrisontal 90
+    100900: poutre hrisontal 91
+    100902: poutre hrisontal 92
+    100904: poutre hrisontal 93
+    100906: poutre hrisontal 94
+    100908: poutre hrisontal 95
+    100910: poutre hrisontal 96
+    100912: poutre hrisontal 97
+    100914: poutre hrisontal 98
+    100916: poutre hrisontal 99
+    100918: side#1
+    400000: Component#2
+    400002: Component#4
+    400004: Component#4 1
+    400006: Component#5
+    400008: Component#5 1
+    400010: Component#6
+    400012: Component#6 1
+    400014: Component#7
+    400016: eastside
+    400018: eastside 1
+    400020: Group 11
+    400022: Group 15
+    400024: Group 19
+    400026: Group 30
+    400028: Group 4
+    400030: Group 5
+    400032: Group 7
+    400034: Lisanne
+    400036: pilier
+    400038: pilier3
+    400040: pilier3 1
+    400042: pilier3 2
+    400044: pilier3 3
+    400046: pillier1
+    400048: pillier1 1
+    400050: pillier2
+    400052: pillier2 1
+    400054: //RootNode
+    400056: Pont Jacques-Cartier
+    400058: poutre hrisontal
+    400060: poutre hrisontal 1
+    400062: poutre hrisontal 10
+    400064: poutre hrisontal 100
+    400066: poutre hrisontal 101
+    400068: poutre hrisontal 102
+    400070: poutre hrisontal 103
+    400072: poutre hrisontal 104
+    400074: poutre hrisontal 105
+    400076: poutre hrisontal 106
+    400078: poutre hrisontal 107
+    400080: poutre hrisontal 108
+    400082: poutre hrisontal 109
+    400084: poutre hrisontal 11
+    400086: poutre hrisontal 110
+    400088: poutre hrisontal 111
+    400090: poutre hrisontal 112
+    400092: poutre hrisontal 113
+    400094: poutre hrisontal 114
+    400096: poutre hrisontal 115
+    400098: poutre hrisontal 116
+    400100: poutre hrisontal 117
+    400102: poutre hrisontal 118
+    400104: poutre hrisontal 119
+    400106: poutre hrisontal 12
+    400108: poutre hrisontal 120
+    400110: poutre hrisontal 121
+    400112: poutre hrisontal 122
+    400114: poutre hrisontal 123
+    400116: poutre hrisontal 124
+    400118: poutre hrisontal 125
+    400120: poutre hrisontal 126
+    400122: poutre hrisontal 127
+    400124: poutre hrisontal 128
+    400126: poutre hrisontal 129
+    400128: poutre hrisontal 13
+    400130: poutre hrisontal 130
+    400132: poutre hrisontal 131
+    400134: poutre hrisontal 132
+    400136: poutre hrisontal 133
+    400138: poutre hrisontal 134
+    400140: poutre hrisontal 135
+    400142: poutre hrisontal 136
+    400144: poutre hrisontal 137
+    400146: poutre hrisontal 138
+    400148: poutre hrisontal 139
+    400150: poutre hrisontal 14
+    400152: poutre hrisontal 140
+    400154: poutre hrisontal 141
+    400156: poutre hrisontal 142
+    400158: poutre hrisontal 143
+    400160: poutre hrisontal 144
+    400162: poutre hrisontal 145
+    400164: poutre hrisontal 146
+    400166: poutre hrisontal 147
+    400168: poutre hrisontal 148
+    400170: poutre hrisontal 149
+    400172: poutre hrisontal 15
+    400174: poutre hrisontal 150
+    400176: poutre hrisontal 151
+    400178: poutre hrisontal 152
+    400180: poutre hrisontal 153
+    400182: poutre hrisontal 154
+    400184: poutre hrisontal 155
+    400186: poutre hrisontal 156
+    400188: poutre hrisontal 157
+    400190: poutre hrisontal 158
+    400192: poutre hrisontal 159
+    400194: poutre hrisontal 16
+    400196: poutre hrisontal 160
+    400198: poutre hrisontal 161
+    400200: poutre hrisontal 162
+    400202: poutre hrisontal 163
+    400204: poutre hrisontal 164
+    400206: poutre hrisontal 165
+    400208: poutre hrisontal 166
+    400210: poutre hrisontal 167
+    400212: poutre hrisontal 168
+    400214: poutre hrisontal 169
+    400216: poutre hrisontal 17
+    400218: poutre hrisontal 170
+    400220: poutre hrisontal 171
+    400222: poutre hrisontal 172
+    400224: poutre hrisontal 173
+    400226: poutre hrisontal 174
+    400228: poutre hrisontal 175
+    400230: poutre hrisontal 176
+    400232: poutre hrisontal 177
+    400234: poutre hrisontal 178
+    400236: poutre hrisontal 179
+    400238: poutre hrisontal 18
+    400240: poutre hrisontal 180
+    400242: poutre hrisontal 181
+    400244: poutre hrisontal 182
+    400246: poutre hrisontal 183
+    400248: poutre hrisontal 184
+    400250: poutre hrisontal 185
+    400252: poutre hrisontal 186
+    400254: poutre hrisontal 187
+    400256: poutre hrisontal 188
+    400258: poutre hrisontal 189
+    400260: poutre hrisontal 19
+    400262: poutre hrisontal 190
+    400264: poutre hrisontal 191
+    400266: poutre hrisontal 192
+    400268: poutre hrisontal 193
+    400270: poutre hrisontal 194
+    400272: poutre hrisontal 195
+    400274: poutre hrisontal 196
+    400276: poutre hrisontal 197
+    400278: poutre hrisontal 198
+    400280: poutre hrisontal 199
+    400282: poutre hrisontal 2
+    400284: poutre hrisontal 20
+    400286: poutre hrisontal 200
+    400288: poutre hrisontal 201
+    400290: poutre hrisontal 202
+    400292: poutre hrisontal 203
+    400294: poutre hrisontal 204
+    400296: poutre hrisontal 205
+    400298: poutre hrisontal 206
+    400300: poutre hrisontal 207
+    400302: poutre hrisontal 208
+    400304: poutre hrisontal 209
+    400306: poutre hrisontal 21
+    400308: poutre hrisontal 210
+    400310: poutre hrisontal 211
+    400312: poutre hrisontal 212
+    400314: poutre hrisontal 213
+    400316: poutre hrisontal 214
+    400318: poutre hrisontal 215
+    400320: poutre hrisontal 216
+    400322: poutre hrisontal 217
+    400324: poutre hrisontal 218
+    400326: poutre hrisontal 219
+    400328: poutre hrisontal 22
+    400330: poutre hrisontal 220
+    400332: poutre hrisontal 221
+    400334: poutre hrisontal 222
+    400336: poutre hrisontal 223
+    400338: poutre hrisontal 224
+    400340: poutre hrisontal 225
+    400342: poutre hrisontal 226
+    400344: poutre hrisontal 227
+    400346: poutre hrisontal 228
+    400348: poutre hrisontal 229
+    400350: poutre hrisontal 23
+    400352: poutre hrisontal 230
+    400354: poutre hrisontal 231
+    400356: poutre hrisontal 232
+    400358: poutre hrisontal 233
+    400360: poutre hrisontal 234
+    400362: poutre hrisontal 235
+    400364: poutre hrisontal 236
+    400366: poutre hrisontal 237
+    400368: poutre hrisontal 238
+    400370: poutre hrisontal 239
+    400372: poutre hrisontal 24
+    400374: poutre hrisontal 240
+    400376: poutre hrisontal 241
+    400378: poutre hrisontal 242
+    400380: poutre hrisontal 243
+    400382: poutre hrisontal 244
+    400384: poutre hrisontal 245
+    400386: poutre hrisontal 246
+    400388: poutre hrisontal 247
+    400390: poutre hrisontal 248
+    400392: poutre hrisontal 249
+    400394: poutre hrisontal 25
+    400396: poutre hrisontal 250
+    400398: poutre hrisontal 251
+    400400: poutre hrisontal 252
+    400402: poutre hrisontal 253
+    400404: poutre hrisontal 254
+    400406: poutre hrisontal 255
+    400408: poutre hrisontal 256
+    400410: poutre hrisontal 257
+    400412: poutre hrisontal 258
+    400414: poutre hrisontal 259
+    400416: poutre hrisontal 26
+    400418: poutre hrisontal 260
+    400420: poutre hrisontal 261
+    400422: poutre hrisontal 262
+    400424: poutre hrisontal 263
+    400426: poutre hrisontal 264
+    400428: poutre hrisontal 265
+    400430: poutre hrisontal 266
+    400432: poutre hrisontal 267
+    400434: poutre hrisontal 268
+    400436: poutre hrisontal 269
+    400438: poutre hrisontal 27
+    400440: poutre hrisontal 270
+    400442: poutre hrisontal 271
+    400444: poutre hrisontal 272
+    400446: poutre hrisontal 273
+    400448: poutre hrisontal 274
+    400450: poutre hrisontal 275
+    400452: poutre hrisontal 276
+    400454: poutre hrisontal 277
+    400456: poutre hrisontal 278
+    400458: poutre hrisontal 279
+    400460: poutre hrisontal 28
+    400462: poutre hrisontal 280
+    400464: poutre hrisontal 281
+    400466: poutre hrisontal 282
+    400468: poutre hrisontal 283
+    400470: poutre hrisontal 284
+    400472: poutre hrisontal 285
+    400474: poutre hrisontal 286
+    400476: poutre hrisontal 287
+    400478: poutre hrisontal 288
+    400480: poutre hrisontal 289
+    400482: poutre hrisontal 29
+    400484: poutre hrisontal 290
+    400486: poutre hrisontal 291
+    400488: poutre hrisontal 292
+    400490: poutre hrisontal 293
+    400492: poutre hrisontal 294
+    400494: poutre hrisontal 295
+    400496: poutre hrisontal 296
+    400498: poutre hrisontal 297
+    400500: poutre hrisontal 298
+    400502: poutre hrisontal 299
+    400504: poutre hrisontal 3
+    400506: poutre hrisontal 30
+    400508: poutre hrisontal 300
+    400510: poutre hrisontal 301
+    400512: poutre hrisontal 302
+    400514: poutre hrisontal 303
+    400516: poutre hrisontal 304
+    400518: poutre hrisontal 305
+    400520: poutre hrisontal 306
+    400522: poutre hrisontal 307
+    400524: poutre hrisontal 308
+    400526: poutre hrisontal 309
+    400528: poutre hrisontal 31
+    400530: poutre hrisontal 310
+    400532: poutre hrisontal 311
+    400534: poutre hrisontal 312
+    400536: poutre hrisontal 313
+    400538: poutre hrisontal 314
+    400540: poutre hrisontal 315
+    400542: poutre hrisontal 316
+    400544: poutre hrisontal 317
+    400546: poutre hrisontal 318
+    400548: poutre hrisontal 319
+    400550: poutre hrisontal 32
+    400552: poutre hrisontal 320
+    400554: poutre hrisontal 321
+    400556: poutre hrisontal 322
+    400558: poutre hrisontal 323
+    400560: poutre hrisontal 324
+    400562: poutre hrisontal 325
+    400564: poutre hrisontal 326
+    400566: poutre hrisontal 327
+    400568: poutre hrisontal 328
+    400570: poutre hrisontal 329
+    400572: poutre hrisontal 33
+    400574: poutre hrisontal 330
+    400576: poutre hrisontal 331
+    400578: poutre hrisontal 332
+    400580: poutre hrisontal 333
+    400582: poutre hrisontal 334
+    400584: poutre hrisontal 335
+    400586: poutre hrisontal 336
+    400588: poutre hrisontal 337
+    400590: poutre hrisontal 338
+    400592: poutre hrisontal 339
+    400594: poutre hrisontal 34
+    400596: poutre hrisontal 340
+    400598: poutre hrisontal 341
+    400600: poutre hrisontal 342
+    400602: poutre hrisontal 343
+    400604: poutre hrisontal 344
+    400606: poutre hrisontal 345
+    400608: poutre hrisontal 346
+    400610: poutre hrisontal 347
+    400612: poutre hrisontal 348
+    400614: poutre hrisontal 349
+    400616: poutre hrisontal 35
+    400618: poutre hrisontal 350
+    400620: poutre hrisontal 351
+    400622: poutre hrisontal 352
+    400624: poutre hrisontal 353
+    400626: poutre hrisontal 354
+    400628: poutre hrisontal 355
+    400630: poutre hrisontal 356
+    400632: poutre hrisontal 357
+    400634: poutre hrisontal 358
+    400636: poutre hrisontal 359
+    400638: poutre hrisontal 36
+    400640: poutre hrisontal 360
+    400642: poutre hrisontal 361
+    400644: poutre hrisontal 362
+    400646: poutre hrisontal 363
+    400648: poutre hrisontal 364
+    400650: poutre hrisontal 365
+    400652: poutre hrisontal 366
+    400654: poutre hrisontal 367
+    400656: poutre hrisontal 368
+    400658: poutre hrisontal 369
+    400660: poutre hrisontal 37
+    400662: poutre hrisontal 370
+    400664: poutre hrisontal 371
+    400666: poutre hrisontal 372
+    400668: poutre hrisontal 373
+    400670: poutre hrisontal 374
+    400672: poutre hrisontal 375
+    400674: poutre hrisontal 376
+    400676: poutre hrisontal 377
+    400678: poutre hrisontal 378
+    400680: poutre hrisontal 379
+    400682: poutre hrisontal 38
+    400684: poutre hrisontal 380
+    400686: poutre hrisontal 381
+    400688: poutre hrisontal 382
+    400690: poutre hrisontal 383
+    400692: poutre hrisontal 384
+    400694: poutre hrisontal 385
+    400696: poutre hrisontal 386
+    400698: poutre hrisontal 387
+    400700: poutre hrisontal 388
+    400702: poutre hrisontal 389
+    400704: poutre hrisontal 39
+    400706: poutre hrisontal 390
+    400708: poutre hrisontal 391
+    400710: poutre hrisontal 392
+    400712: poutre hrisontal 393
+    400714: poutre hrisontal 394
+    400716: poutre hrisontal 395
+    400718: poutre hrisontal 396
+    400720: poutre hrisontal 397
+    400722: poutre hrisontal 398
+    400724: poutre hrisontal 399
+    400726: poutre hrisontal 4
+    400728: poutre hrisontal 40
+    400730: poutre hrisontal 400
+    400732: poutre hrisontal 401
+    400734: poutre hrisontal 402
+    400736: poutre hrisontal 403
+    400738: poutre hrisontal 404
+    400740: poutre hrisontal 405
+    400742: poutre hrisontal 406
+    400744: poutre hrisontal 407
+    400746: poutre hrisontal 408
+    400748: poutre hrisontal 409
+    400750: poutre hrisontal 41
+    400752: poutre hrisontal 410
+    400754: poutre hrisontal 411
+    400756: poutre hrisontal 412
+    400758: poutre hrisontal 413
+    400760: poutre hrisontal 414
+    400762: poutre hrisontal 415
+    400764: poutre hrisontal 416
+    400766: poutre hrisontal 417
+    400768: poutre hrisontal 418
+    400770: poutre hrisontal 419
+    400772: poutre hrisontal 42
+    400774: poutre hrisontal 420
+    400776: poutre hrisontal 421
+    400778: poutre hrisontal 422
+    400780: poutre hrisontal 423
+    400782: poutre hrisontal 424
+    400784: poutre hrisontal 425
+    400786: poutre hrisontal 426
+    400788: poutre hrisontal 427
+    400790: poutre hrisontal 428
+    400792: poutre hrisontal 429
+    400794: poutre hrisontal 43
+    400796: poutre hrisontal 44
+    400798: poutre hrisontal 45
+    400800: poutre hrisontal 46
+    400802: poutre hrisontal 47
+    400804: poutre hrisontal 48
+    400806: poutre hrisontal 49
+    400808: poutre hrisontal 5
+    400810: poutre hrisontal 50
+    400812: poutre hrisontal 51
+    400814: poutre hrisontal 52
+    400816: poutre hrisontal 53
+    400818: poutre hrisontal 54
+    400820: poutre hrisontal 55
+    400822: poutre hrisontal 56
+    400824: poutre hrisontal 57
+    400826: poutre hrisontal 58
+    400828: poutre hrisontal 59
+    400830: poutre hrisontal 6
+    400832: poutre hrisontal 60
+    400834: poutre hrisontal 61
+    400836: poutre hrisontal 62
+    400838: poutre hrisontal 63
+    400840: poutre hrisontal 64
+    400842: poutre hrisontal 65
+    400844: poutre hrisontal 66
+    400846: poutre hrisontal 67
+    400848: poutre hrisontal 68
+    400850: poutre hrisontal 69
+    400852: poutre hrisontal 7
+    400854: poutre hrisontal 70
+    400856: poutre hrisontal 71
+    400858: poutre hrisontal 72
+    400860: poutre hrisontal 73
+    400862: poutre hrisontal 74
+    400864: poutre hrisontal 75
+    400866: poutre hrisontal 76
+    400868: poutre hrisontal 77
+    400870: poutre hrisontal 78
+    400872: poutre hrisontal 79
+    400874: poutre hrisontal 8
+    400876: poutre hrisontal 80
+    400878: poutre hrisontal 81
+    400880: poutre hrisontal 82
+    400882: poutre hrisontal 83
+    400884: poutre hrisontal 84
+    400886: poutre hrisontal 85
+    400888: poutre hrisontal 86
+    400890: poutre hrisontal 87
+    400892: poutre hrisontal 88
+    400894: poutre hrisontal 89
+    400896: poutre hrisontal 9
+    400898: poutre hrisontal 90
+    400900: poutre hrisontal 91
+    400902: poutre hrisontal 92
+    400904: poutre hrisontal 93
+    400906: poutre hrisontal 94
+    400908: poutre hrisontal 95
+    400910: poutre hrisontal 96
+    400912: poutre hrisontal 97
+    400914: poutre hrisontal 98
+    400916: poutre hrisontal 99
+    400918: side#1
+    2300000: Component#7
+    2300002: Group 11
+    2300004: Group 15
+    2300006: Group 19
+    2300008: Group 5
+    2300010: Group 7
+    2300012: Lisanne
+    2300014: pilier3
+    2300016: pilier3 1
+    2300018: pilier3 2
+    2300020: pilier3 3
+    2300022: pillier1
+    2300024: pillier1 1
+    2300026: pillier2
+    2300028: pillier2 1
+    2300030: poutre hrisontal
+    2300032: poutre hrisontal 1
+    2300034: poutre hrisontal 10
+    2300036: poutre hrisontal 100
+    2300038: poutre hrisontal 101
+    2300040: poutre hrisontal 102
+    2300042: poutre hrisontal 103
+    2300044: poutre hrisontal 104
+    2300046: poutre hrisontal 105
+    2300048: poutre hrisontal 106
+    2300050: poutre hrisontal 107
+    2300052: poutre hrisontal 108
+    2300054: poutre hrisontal 109
+    2300056: poutre hrisontal 11
+    2300058: poutre hrisontal 110
+    2300060: poutre hrisontal 111
+    2300062: poutre hrisontal 112
+    2300064: poutre hrisontal 113
+    2300066: poutre hrisontal 114
+    2300068: poutre hrisontal 115
+    2300070: poutre hrisontal 116
+    2300072: poutre hrisontal 117
+    2300074: poutre hrisontal 118
+    2300076: poutre hrisontal 119
+    2300078: poutre hrisontal 12
+    2300080: poutre hrisontal 120
+    2300082: poutre hrisontal 121
+    2300084: poutre hrisontal 122
+    2300086: poutre hrisontal 123
+    2300088: poutre hrisontal 124
+    2300090: poutre hrisontal 125
+    2300092: poutre hrisontal 126
+    2300094: poutre hrisontal 127
+    2300096: poutre hrisontal 128
+    2300098: poutre hrisontal 129
+    2300100: poutre hrisontal 13
+    2300102: poutre hrisontal 130
+    2300104: poutre hrisontal 131
+    2300106: poutre hrisontal 132
+    2300108: poutre hrisontal 133
+    2300110: poutre hrisontal 134
+    2300112: poutre hrisontal 135
+    2300114: poutre hrisontal 136
+    2300116: poutre hrisontal 137
+    2300118: poutre hrisontal 138
+    2300120: poutre hrisontal 139
+    2300122: poutre hrisontal 14
+    2300124: poutre hrisontal 140
+    2300126: poutre hrisontal 141
+    2300128: poutre hrisontal 142
+    2300130: poutre hrisontal 143
+    2300132: poutre hrisontal 144
+    2300134: poutre hrisontal 145
+    2300136: poutre hrisontal 146
+    2300138: poutre hrisontal 147
+    2300140: poutre hrisontal 148
+    2300142: poutre hrisontal 149
+    2300144: poutre hrisontal 15
+    2300146: poutre hrisontal 150
+    2300148: poutre hrisontal 151
+    2300150: poutre hrisontal 152
+    2300152: poutre hrisontal 153
+    2300154: poutre hrisontal 154
+    2300156: poutre hrisontal 155
+    2300158: poutre hrisontal 156
+    2300160: poutre hrisontal 157
+    2300162: poutre hrisontal 158
+    2300164: poutre hrisontal 159
+    2300166: poutre hrisontal 16
+    2300168: poutre hrisontal 160
+    2300170: poutre hrisontal 161
+    2300172: poutre hrisontal 162
+    2300174: poutre hrisontal 163
+    2300176: poutre hrisontal 164
+    2300178: poutre hrisontal 165
+    2300180: poutre hrisontal 166
+    2300182: poutre hrisontal 167
+    2300184: poutre hrisontal 168
+    2300186: poutre hrisontal 169
+    2300188: poutre hrisontal 17
+    2300190: poutre hrisontal 170
+    2300192: poutre hrisontal 171
+    2300194: poutre hrisontal 172
+    2300196: poutre hrisontal 173
+    2300198: poutre hrisontal 174
+    2300200: poutre hrisontal 175
+    2300202: poutre hrisontal 176
+    2300204: poutre hrisontal 177
+    2300206: poutre hrisontal 178
+    2300208: poutre hrisontal 179
+    2300210: poutre hrisontal 18
+    2300212: poutre hrisontal 180
+    2300214: poutre hrisontal 181
+    2300216: poutre hrisontal 182
+    2300218: poutre hrisontal 183
+    2300220: poutre hrisontal 184
+    2300222: poutre hrisontal 185
+    2300224: poutre hrisontal 186
+    2300226: poutre hrisontal 187
+    2300228: poutre hrisontal 188
+    2300230: poutre hrisontal 189
+    2300232: poutre hrisontal 19
+    2300234: poutre hrisontal 190
+    2300236: poutre hrisontal 191
+    2300238: poutre hrisontal 192
+    2300240: poutre hrisontal 193
+    2300242: poutre hrisontal 194
+    2300244: poutre hrisontal 195
+    2300246: poutre hrisontal 196
+    2300248: poutre hrisontal 197
+    2300250: poutre hrisontal 198
+    2300252: poutre hrisontal 199
+    2300254: poutre hrisontal 2
+    2300256: poutre hrisontal 20
+    2300258: poutre hrisontal 200
+    2300260: poutre hrisontal 201
+    2300262: poutre hrisontal 202
+    2300264: poutre hrisontal 203
+    2300266: poutre hrisontal 204
+    2300268: poutre hrisontal 205
+    2300270: poutre hrisontal 206
+    2300272: poutre hrisontal 207
+    2300274: poutre hrisontal 208
+    2300276: poutre hrisontal 209
+    2300278: poutre hrisontal 21
+    2300280: poutre hrisontal 210
+    2300282: poutre hrisontal 211
+    2300284: poutre hrisontal 212
+    2300286: poutre hrisontal 213
+    2300288: poutre hrisontal 214
+    2300290: poutre hrisontal 215
+    2300292: poutre hrisontal 216
+    2300294: poutre hrisontal 217
+    2300296: poutre hrisontal 218
+    2300298: poutre hrisontal 219
+    2300300: poutre hrisontal 22
+    2300302: poutre hrisontal 220
+    2300304: poutre hrisontal 221
+    2300306: poutre hrisontal 222
+    2300308: poutre hrisontal 223
+    2300310: poutre hrisontal 224
+    2300312: poutre hrisontal 225
+    2300314: poutre hrisontal 226
+    2300316: poutre hrisontal 227
+    2300318: poutre hrisontal 228
+    2300320: poutre hrisontal 229
+    2300322: poutre hrisontal 23
+    2300324: poutre hrisontal 230
+    2300326: poutre hrisontal 231
+    2300328: poutre hrisontal 232
+    2300330: poutre hrisontal 233
+    2300332: poutre hrisontal 234
+    2300334: poutre hrisontal 235
+    2300336: poutre hrisontal 236
+    2300338: poutre hrisontal 237
+    2300340: poutre hrisontal 238
+    2300342: poutre hrisontal 239
+    2300344: poutre hrisontal 24
+    2300346: poutre hrisontal 240
+    2300348: poutre hrisontal 241
+    2300350: poutre hrisontal 242
+    2300352: poutre hrisontal 243
+    2300354: poutre hrisontal 244
+    2300356: poutre hrisontal 245
+    2300358: poutre hrisontal 246
+    2300360: poutre hrisontal 247
+    2300362: poutre hrisontal 248
+    2300364: poutre hrisontal 249
+    2300366: poutre hrisontal 25
+    2300368: poutre hrisontal 250
+    2300370: poutre hrisontal 251
+    2300372: poutre hrisontal 252
+    2300374: poutre hrisontal 253
+    2300376: poutre hrisontal 254
+    2300378: poutre hrisontal 255
+    2300380: poutre hrisontal 256
+    2300382: poutre hrisontal 257
+    2300384: poutre hrisontal 258
+    2300386: poutre hrisontal 259
+    2300388: poutre hrisontal 26
+    2300390: poutre hrisontal 260
+    2300392: poutre hrisontal 261
+    2300394: poutre hrisontal 262
+    2300396: poutre hrisontal 263
+    2300398: poutre hrisontal 264
+    2300400: poutre hrisontal 265
+    2300402: poutre hrisontal 266
+    2300404: poutre hrisontal 267
+    2300406: poutre hrisontal 268
+    2300408: poutre hrisontal 269
+    2300410: poutre hrisontal 27
+    2300412: poutre hrisontal 270
+    2300414: poutre hrisontal 271
+    2300416: poutre hrisontal 272
+    2300418: poutre hrisontal 273
+    2300420: poutre hrisontal 274
+    2300422: poutre hrisontal 275
+    2300424: poutre hrisontal 276
+    2300426: poutre hrisontal 277
+    2300428: poutre hrisontal 278
+    2300430: poutre hrisontal 279
+    2300432: poutre hrisontal 28
+    2300434: poutre hrisontal 280
+    2300436: poutre hrisontal 281
+    2300438: poutre hrisontal 282
+    2300440: poutre hrisontal 283
+    2300442: poutre hrisontal 284
+    2300444: poutre hrisontal 285
+    2300446: poutre hrisontal 286
+    2300448: poutre hrisontal 287
+    2300450: poutre hrisontal 288
+    2300452: poutre hrisontal 289
+    2300454: poutre hrisontal 29
+    2300456: poutre hrisontal 290
+    2300458: poutre hrisontal 291
+    2300460: poutre hrisontal 292
+    2300462: poutre hrisontal 293
+    2300464: poutre hrisontal 294
+    2300466: poutre hrisontal 295
+    2300468: poutre hrisontal 296
+    2300470: poutre hrisontal 297
+    2300472: poutre hrisontal 298
+    2300474: poutre hrisontal 299
+    2300476: poutre hrisontal 3
+    2300478: poutre hrisontal 30
+    2300480: poutre hrisontal 300
+    2300482: poutre hrisontal 301
+    2300484: poutre hrisontal 302
+    2300486: poutre hrisontal 303
+    2300488: poutre hrisontal 304
+    2300490: poutre hrisontal 305
+    2300492: poutre hrisontal 306
+    2300494: poutre hrisontal 307
+    2300496: poutre hrisontal 308
+    2300498: poutre hrisontal 309
+    2300500: poutre hrisontal 31
+    2300502: poutre hrisontal 310
+    2300504: poutre hrisontal 311
+    2300506: poutre hrisontal 312
+    2300508: poutre hrisontal 313
+    2300510: poutre hrisontal 314
+    2300512: poutre hrisontal 315
+    2300514: poutre hrisontal 316
+    2300516: poutre hrisontal 317
+    2300518: poutre hrisontal 318
+    2300520: poutre hrisontal 319
+    2300522: poutre hrisontal 32
+    2300524: poutre hrisontal 320
+    2300526: poutre hrisontal 321
+    2300528: poutre hrisontal 322
+    2300530: poutre hrisontal 323
+    2300532: poutre hrisontal 324
+    2300534: poutre hrisontal 325
+    2300536: poutre hrisontal 326
+    2300538: poutre hrisontal 327
+    2300540: poutre hrisontal 328
+    2300542: poutre hrisontal 329
+    2300544: poutre hrisontal 33
+    2300546: poutre hrisontal 330
+    2300548: poutre hrisontal 331
+    2300550: poutre hrisontal 332
+    2300552: poutre hrisontal 333
+    2300554: poutre hrisontal 334
+    2300556: poutre hrisontal 335
+    2300558: poutre hrisontal 336
+    2300560: poutre hrisontal 337
+    2300562: poutre hrisontal 338
+    2300564: poutre hrisontal 339
+    2300566: poutre hrisontal 34
+    2300568: poutre hrisontal 340
+    2300570: poutre hrisontal 341
+    2300572: poutre hrisontal 342
+    2300574: poutre hrisontal 343
+    2300576: poutre hrisontal 344
+    2300578: poutre hrisontal 345
+    2300580: poutre hrisontal 346
+    2300582: poutre hrisontal 347
+    2300584: poutre hrisontal 348
+    2300586: poutre hrisontal 349
+    2300588: poutre hrisontal 35
+    2300590: poutre hrisontal 350
+    2300592: poutre hrisontal 351
+    2300594: poutre hrisontal 352
+    2300596: poutre hrisontal 353
+    2300598: poutre hrisontal 354
+    2300600: poutre hrisontal 355
+    2300602: poutre hrisontal 356
+    2300604: poutre hrisontal 357
+    2300606: poutre hrisontal 358
+    2300608: poutre hrisontal 359
+    2300610: poutre hrisontal 36
+    2300612: poutre hrisontal 360
+    2300614: poutre hrisontal 361
+    2300616: poutre hrisontal 362
+    2300618: poutre hrisontal 363
+    2300620: poutre hrisontal 364
+    2300622: poutre hrisontal 365
+    2300624: poutre hrisontal 366
+    2300626: poutre hrisontal 367
+    2300628: poutre hrisontal 368
+    2300630: poutre hrisontal 369
+    2300632: poutre hrisontal 37
+    2300634: poutre hrisontal 370
+    2300636: poutre hrisontal 371
+    2300638: poutre hrisontal 372
+    2300640: poutre hrisontal 373
+    2300642: poutre hrisontal 374
+    2300644: poutre hrisontal 375
+    2300646: poutre hrisontal 376
+    2300648: poutre hrisontal 377
+    2300650: poutre hrisontal 378
+    2300652: poutre hrisontal 379
+    2300654: poutre hrisontal 38
+    2300656: poutre hrisontal 380
+    2300658: poutre hrisontal 381
+    2300660: poutre hrisontal 382
+    2300662: poutre hrisontal 383
+    2300664: poutre hrisontal 384
+    2300666: poutre hrisontal 385
+    2300668: poutre hrisontal 386
+    2300670: poutre hrisontal 387
+    2300672: poutre hrisontal 388
+    2300674: poutre hrisontal 389
+    2300676: poutre hrisontal 39
+    2300678: poutre hrisontal 390
+    2300680: poutre hrisontal 391
+    2300682: poutre hrisontal 392
+    2300684: poutre hrisontal 393
+    2300686: poutre hrisontal 394
+    2300688: poutre hrisontal 395
+    2300690: poutre hrisontal 396
+    2300692: poutre hrisontal 397
+    2300694: poutre hrisontal 398
+    2300696: poutre hrisontal 399
+    2300698: poutre hrisontal 4
+    2300700: poutre hrisontal 40
+    2300702: poutre hrisontal 400
+    2300704: poutre hrisontal 401
+    2300706: poutre hrisontal 402
+    2300708: poutre hrisontal 403
+    2300710: poutre hrisontal 404
+    2300712: poutre hrisontal 405
+    2300714: poutre hrisontal 406
+    2300716: poutre hrisontal 407
+    2300718: poutre hrisontal 408
+    2300720: poutre hrisontal 409
+    2300722: poutre hrisontal 41
+    2300724: poutre hrisontal 410
+    2300726: poutre hrisontal 411
+    2300728: poutre hrisontal 412
+    2300730: poutre hrisontal 413
+    2300732: poutre hrisontal 414
+    2300734: poutre hrisontal 415
+    2300736: poutre hrisontal 416
+    2300738: poutre hrisontal 417
+    2300740: poutre hrisontal 418
+    2300742: poutre hrisontal 419
+    2300744: poutre hrisontal 42
+    2300746: poutre hrisontal 420
+    2300748: poutre hrisontal 421
+    2300750: poutre hrisontal 422
+    2300752: poutre hrisontal 423
+    2300754: poutre hrisontal 424
+    2300756: poutre hrisontal 425
+    2300758: poutre hrisontal 426
+    2300760: poutre hrisontal 427
+    2300762: poutre hrisontal 428
+    2300764: poutre hrisontal 429
+    2300766: poutre hrisontal 43
+    2300768: poutre hrisontal 44
+    2300770: poutre hrisontal 45
+    2300772: poutre hrisontal 46
+    2300774: poutre hrisontal 47
+    2300776: poutre hrisontal 48
+    2300778: poutre hrisontal 49
+    2300780: poutre hrisontal 5
+    2300782: poutre hrisontal 50
+    2300784: poutre hrisontal 51
+    2300786: poutre hrisontal 52
+    2300788: poutre hrisontal 53
+    2300790: poutre hrisontal 54
+    2300792: poutre hrisontal 55
+    2300794: poutre hrisontal 56
+    2300796: poutre hrisontal 57
+    2300798: poutre hrisontal 58
+    2300800: poutre hrisontal 59
+    2300802: poutre hrisontal 6
+    2300804: poutre hrisontal 60
+    2300806: poutre hrisontal 61
+    2300808: poutre hrisontal 62
+    2300810: poutre hrisontal 63
+    2300812: poutre hrisontal 64
+    2300814: poutre hrisontal 65
+    2300816: poutre hrisontal 66
+    2300818: poutre hrisontal 67
+    2300820: poutre hrisontal 68
+    2300822: poutre hrisontal 69
+    2300824: poutre hrisontal 7
+    2300826: poutre hrisontal 70
+    2300828: poutre hrisontal 71
+    2300830: poutre hrisontal 72
+    2300832: poutre hrisontal 73
+    2300834: poutre hrisontal 74
+    2300836: poutre hrisontal 75
+    2300838: poutre hrisontal 76
+    2300840: poutre hrisontal 77
+    2300842: poutre hrisontal 78
+    2300844: poutre hrisontal 79
+    2300846: poutre hrisontal 8
+    2300848: poutre hrisontal 80
+    2300850: poutre hrisontal 81
+    2300852: poutre hrisontal 82
+    2300854: poutre hrisontal 83
+    2300856: poutre hrisontal 84
+    2300858: poutre hrisontal 85
+    2300860: poutre hrisontal 86
+    2300862: poutre hrisontal 87
+    2300864: poutre hrisontal 88
+    2300866: poutre hrisontal 89
+    2300868: poutre hrisontal 9
+    2300870: poutre hrisontal 90
+    2300872: poutre hrisontal 91
+    2300874: poutre hrisontal 92
+    2300876: poutre hrisontal 93
+    2300878: poutre hrisontal 94
+    2300880: poutre hrisontal 95
+    2300882: poutre hrisontal 96
+    2300884: poutre hrisontal 97
+    2300886: poutre hrisontal 98
+    2300888: poutre hrisontal 99
+    3300000: Component#7
+    3300002: Group 11
+    3300004: Group 15
+    3300006: Group 19
+    3300008: Group 5
+    3300010: Group 7
+    3300012: Lisanne
+    3300014: pilier3
+    3300016: pilier3 1
+    3300018: pilier3 2
+    3300020: pilier3 3
+    3300022: pillier1
+    3300024: pillier1 1
+    3300026: pillier2
+    3300028: pillier2 1
+    3300030: poutre hrisontal
+    3300032: poutre hrisontal 1
+    3300034: poutre hrisontal 10
+    3300036: poutre hrisontal 100
+    3300038: poutre hrisontal 101
+    3300040: poutre hrisontal 102
+    3300042: poutre hrisontal 103
+    3300044: poutre hrisontal 104
+    3300046: poutre hrisontal 105
+    3300048: poutre hrisontal 106
+    3300050: poutre hrisontal 107
+    3300052: poutre hrisontal 108
+    3300054: poutre hrisontal 109
+    3300056: poutre hrisontal 11
+    3300058: poutre hrisontal 110
+    3300060: poutre hrisontal 111
+    3300062: poutre hrisontal 112
+    3300064: poutre hrisontal 113
+    3300066: poutre hrisontal 114
+    3300068: poutre hrisontal 115
+    3300070: poutre hrisontal 116
+    3300072: poutre hrisontal 117
+    3300074: poutre hrisontal 118
+    3300076: poutre hrisontal 119
+    3300078: poutre hrisontal 12
+    3300080: poutre hrisontal 120
+    3300082: poutre hrisontal 121
+    3300084: poutre hrisontal 122
+    3300086: poutre hrisontal 123
+    3300088: poutre hrisontal 124
+    3300090: poutre hrisontal 125
+    3300092: poutre hrisontal 126
+    3300094: poutre hrisontal 127
+    3300096: poutre hrisontal 128
+    3300098: poutre hrisontal 129
+    3300100: poutre hrisontal 13
+    3300102: poutre hrisontal 130
+    3300104: poutre hrisontal 131
+    3300106: poutre hrisontal 132
+    3300108: poutre hrisontal 133
+    3300110: poutre hrisontal 134
+    3300112: poutre hrisontal 135
+    3300114: poutre hrisontal 136
+    3300116: poutre hrisontal 137
+    3300118: poutre hrisontal 138
+    3300120: poutre hrisontal 139
+    3300122: poutre hrisontal 14
+    3300124: poutre hrisontal 140
+    3300126: poutre hrisontal 141
+    3300128: poutre hrisontal 142
+    3300130: poutre hrisontal 143
+    3300132: poutre hrisontal 144
+    3300134: poutre hrisontal 145
+    3300136: poutre hrisontal 146
+    3300138: poutre hrisontal 147
+    3300140: poutre hrisontal 148
+    3300142: poutre hrisontal 149
+    3300144: poutre hrisontal 15
+    3300146: poutre hrisontal 150
+    3300148: poutre hrisontal 151
+    3300150: poutre hrisontal 152
+    3300152: poutre hrisontal 153
+    3300154: poutre hrisontal 154
+    3300156: poutre hrisontal 155
+    3300158: poutre hrisontal 156
+    3300160: poutre hrisontal 157
+    3300162: poutre hrisontal 158
+    3300164: poutre hrisontal 159
+    3300166: poutre hrisontal 16
+    3300168: poutre hrisontal 160
+    3300170: poutre hrisontal 161
+    3300172: poutre hrisontal 162
+    3300174: poutre hrisontal 163
+    3300176: poutre hrisontal 164
+    3300178: poutre hrisontal 165
+    3300180: poutre hrisontal 166
+    3300182: poutre hrisontal 167
+    3300184: poutre hrisontal 168
+    3300186: poutre hrisontal 169
+    3300188: poutre hrisontal 17
+    3300190: poutre hrisontal 170
+    3300192: poutre hrisontal 171
+    3300194: poutre hrisontal 172
+    3300196: poutre hrisontal 173
+    3300198: poutre hrisontal 174
+    3300200: poutre hrisontal 175
+    3300202: poutre hrisontal 176
+    3300204: poutre hrisontal 177
+    3300206: poutre hrisontal 178
+    3300208: poutre hrisontal 179
+    3300210: poutre hrisontal 18
+    3300212: poutre hrisontal 180
+    3300214: poutre hrisontal 181
+    3300216: poutre hrisontal 182
+    3300218: poutre hrisontal 183
+    3300220: poutre hrisontal 184
+    3300222: poutre hrisontal 185
+    3300224: poutre hrisontal 186
+    3300226: poutre hrisontal 187
+    3300228: poutre hrisontal 188
+    3300230: poutre hrisontal 189
+    3300232: poutre hrisontal 19
+    3300234: poutre hrisontal 190
+    3300236: poutre hrisontal 191
+    3300238: poutre hrisontal 192
+    3300240: poutre hrisontal 193
+    3300242: poutre hrisontal 194
+    3300244: poutre hrisontal 195
+    3300246: poutre hrisontal 196
+    3300248: poutre hrisontal 197
+    3300250: poutre hrisontal 198
+    3300252: poutre hrisontal 199
+    3300254: poutre hrisontal 2
+    3300256: poutre hrisontal 20
+    3300258: poutre hrisontal 200
+    3300260: poutre hrisontal 201
+    3300262: poutre hrisontal 202
+    3300264: poutre hrisontal 203
+    3300266: poutre hrisontal 204
+    3300268: poutre hrisontal 205
+    3300270: poutre hrisontal 206
+    3300272: poutre hrisontal 207
+    3300274: poutre hrisontal 208
+    3300276: poutre hrisontal 209
+    3300278: poutre hrisontal 21
+    3300280: poutre hrisontal 210
+    3300282: poutre hrisontal 211
+    3300284: poutre hrisontal 212
+    3300286: poutre hrisontal 213
+    3300288: poutre hrisontal 214
+    3300290: poutre hrisontal 215
+    3300292: poutre hrisontal 216
+    3300294: poutre hrisontal 217
+    3300296: poutre hrisontal 218
+    3300298: poutre hrisontal 219
+    3300300: poutre hrisontal 22
+    3300302: poutre hrisontal 220
+    3300304: poutre hrisontal 221
+    3300306: poutre hrisontal 222
+    3300308: poutre hrisontal 223
+    3300310: poutre hrisontal 224
+    3300312: poutre hrisontal 225
+    3300314: poutre hrisontal 226
+    3300316: poutre hrisontal 227
+    3300318: poutre hrisontal 228
+    3300320: poutre hrisontal 229
+    3300322: poutre hrisontal 23
+    3300324: poutre hrisontal 230
+    3300326: poutre hrisontal 231
+    3300328: poutre hrisontal 232
+    3300330: poutre hrisontal 233
+    3300332: poutre hrisontal 234
+    3300334: poutre hrisontal 235
+    3300336: poutre hrisontal 236
+    3300338: poutre hrisontal 237
+    3300340: poutre hrisontal 238
+    3300342: poutre hrisontal 239
+    3300344: poutre hrisontal 24
+    3300346: poutre hrisontal 240
+    3300348: poutre hrisontal 241
+    3300350: poutre hrisontal 242
+    3300352: poutre hrisontal 243
+    3300354: poutre hrisontal 244
+    3300356: poutre hrisontal 245
+    3300358: poutre hrisontal 246
+    3300360: poutre hrisontal 247
+    3300362: poutre hrisontal 248
+    3300364: poutre hrisontal 249
+    3300366: poutre hrisontal 25
+    3300368: poutre hrisontal 250
+    3300370: poutre hrisontal 251
+    3300372: poutre hrisontal 252
+    3300374: poutre hrisontal 253
+    3300376: poutre hrisontal 254
+    3300378: poutre hrisontal 255
+    3300380: poutre hrisontal 256
+    3300382: poutre hrisontal 257
+    3300384: poutre hrisontal 258
+    3300386: poutre hrisontal 259
+    3300388: poutre hrisontal 26
+    3300390: poutre hrisontal 260
+    3300392: poutre hrisontal 261
+    3300394: poutre hrisontal 262
+    3300396: poutre hrisontal 263
+    3300398: poutre hrisontal 264
+    3300400: poutre hrisontal 265
+    3300402: poutre hrisontal 266
+    3300404: poutre hrisontal 267
+    3300406: poutre hrisontal 268
+    3300408: poutre hrisontal 269
+    3300410: poutre hrisontal 27
+    3300412: poutre hrisontal 270
+    3300414: poutre hrisontal 271
+    3300416: poutre hrisontal 272
+    3300418: poutre hrisontal 273
+    3300420: poutre hrisontal 274
+    3300422: poutre hrisontal 275
+    3300424: poutre hrisontal 276
+    3300426: poutre hrisontal 277
+    3300428: poutre hrisontal 278
+    3300430: poutre hrisontal 279
+    3300432: poutre hrisontal 28
+    3300434: poutre hrisontal 280
+    3300436: poutre hrisontal 281
+    3300438: poutre hrisontal 282
+    3300440: poutre hrisontal 283
+    3300442: poutre hrisontal 284
+    3300444: poutre hrisontal 285
+    3300446: poutre hrisontal 286
+    3300448: poutre hrisontal 287
+    3300450: poutre hrisontal 288
+    3300452: poutre hrisontal 289
+    3300454: poutre hrisontal 29
+    3300456: poutre hrisontal 290
+    3300458: poutre hrisontal 291
+    3300460: poutre hrisontal 292
+    3300462: poutre hrisontal 293
+    3300464: poutre hrisontal 294
+    3300466: poutre hrisontal 295
+    3300468: poutre hrisontal 296
+    3300470: poutre hrisontal 297
+    3300472: poutre hrisontal 298
+    3300474: poutre hrisontal 299
+    3300476: poutre hrisontal 3
+    3300478: poutre hrisontal 30
+    3300480: poutre hrisontal 300
+    3300482: poutre hrisontal 301
+    3300484: poutre hrisontal 302
+    3300486: poutre hrisontal 303
+    3300488: poutre hrisontal 304
+    3300490: poutre hrisontal 305
+    3300492: poutre hrisontal 306
+    3300494: poutre hrisontal 307
+    3300496: poutre hrisontal 308
+    3300498: poutre hrisontal 309
+    3300500: poutre hrisontal 31
+    3300502: poutre hrisontal 310
+    3300504: poutre hrisontal 311
+    3300506: poutre hrisontal 312
+    3300508: poutre hrisontal 313
+    3300510: poutre hrisontal 314
+    3300512: poutre hrisontal 315
+    3300514: poutre hrisontal 316
+    3300516: poutre hrisontal 317
+    3300518: poutre hrisontal 318
+    3300520: poutre hrisontal 319
+    3300522: poutre hrisontal 32
+    3300524: poutre hrisontal 320
+    3300526: poutre hrisontal 321
+    3300528: poutre hrisontal 322
+    3300530: poutre hrisontal 323
+    3300532: poutre hrisontal 324
+    3300534: poutre hrisontal 325
+    3300536: poutre hrisontal 326
+    3300538: poutre hrisontal 327
+    3300540: poutre hrisontal 328
+    3300542: poutre hrisontal 329
+    3300544: poutre hrisontal 33
+    3300546: poutre hrisontal 330
+    3300548: poutre hrisontal 331
+    3300550: poutre hrisontal 332
+    3300552: poutre hrisontal 333
+    3300554: poutre hrisontal 334
+    3300556: poutre hrisontal 335
+    3300558: poutre hrisontal 336
+    3300560: poutre hrisontal 337
+    3300562: poutre hrisontal 338
+    3300564: poutre hrisontal 339
+    3300566: poutre hrisontal 34
+    3300568: poutre hrisontal 340
+    3300570: poutre hrisontal 341
+    3300572: poutre hrisontal 342
+    3300574: poutre hrisontal 343
+    3300576: poutre hrisontal 344
+    3300578: poutre hrisontal 345
+    3300580: poutre hrisontal 346
+    3300582: poutre hrisontal 347
+    3300584: poutre hrisontal 348
+    3300586: poutre hrisontal 349
+    3300588: poutre hrisontal 35
+    3300590: poutre hrisontal 350
+    3300592: poutre hrisontal 351
+    3300594: poutre hrisontal 352
+    3300596: poutre hrisontal 353
+    3300598: poutre hrisontal 354
+    3300600: poutre hrisontal 355
+    3300602: poutre hrisontal 356
+    3300604: poutre hrisontal 357
+    3300606: poutre hrisontal 358
+    3300608: poutre hrisontal 359
+    3300610: poutre hrisontal 36
+    3300612: poutre hrisontal 360
+    3300614: poutre hrisontal 361
+    3300616: poutre hrisontal 362
+    3300618: poutre hrisontal 363
+    3300620: poutre hrisontal 364
+    3300622: poutre hrisontal 365
+    3300624: poutre hrisontal 366
+    3300626: poutre hrisontal 367
+    3300628: poutre hrisontal 368
+    3300630: poutre hrisontal 369
+    3300632: poutre hrisontal 37
+    3300634: poutre hrisontal 370
+    3300636: poutre hrisontal 371
+    3300638: poutre hrisontal 372
+    3300640: poutre hrisontal 373
+    3300642: poutre hrisontal 374
+    3300644: poutre hrisontal 375
+    3300646: poutre hrisontal 376
+    3300648: poutre hrisontal 377
+    3300650: poutre hrisontal 378
+    3300652: poutre hrisontal 379
+    3300654: poutre hrisontal 38
+    3300656: poutre hrisontal 380
+    3300658: poutre hrisontal 381
+    3300660: poutre hrisontal 382
+    3300662: poutre hrisontal 383
+    3300664: poutre hrisontal 384
+    3300666: poutre hrisontal 385
+    3300668: poutre hrisontal 386
+    3300670: poutre hrisontal 387
+    3300672: poutre hrisontal 388
+    3300674: poutre hrisontal 389
+    3300676: poutre hrisontal 39
+    3300678: poutre hrisontal 390
+    3300680: poutre hrisontal 391
+    3300682: poutre hrisontal 392
+    3300684: poutre hrisontal 393
+    3300686: poutre hrisontal 394
+    3300688: poutre hrisontal 395
+    3300690: poutre hrisontal 396
+    3300692: poutre hrisontal 397
+    3300694: poutre hrisontal 398
+    3300696: poutre hrisontal 399
+    3300698: poutre hrisontal 4
+    3300700: poutre hrisontal 40
+    3300702: poutre hrisontal 400
+    3300704: poutre hrisontal 401
+    3300706: poutre hrisontal 402
+    3300708: poutre hrisontal 403
+    3300710: poutre hrisontal 404
+    3300712: poutre hrisontal 405
+    3300714: poutre hrisontal 406
+    3300716: poutre hrisontal 407
+    3300718: poutre hrisontal 408
+    3300720: poutre hrisontal 409
+    3300722: poutre hrisontal 41
+    3300724: poutre hrisontal 410
+    3300726: poutre hrisontal 411
+    3300728: poutre hrisontal 412
+    3300730: poutre hrisontal 413
+    3300732: poutre hrisontal 414
+    3300734: poutre hrisontal 415
+    3300736: poutre hrisontal 416
+    3300738: poutre hrisontal 417
+    3300740: poutre hrisontal 418
+    3300742: poutre hrisontal 419
+    3300744: poutre hrisontal 42
+    3300746: poutre hrisontal 420
+    3300748: poutre hrisontal 421
+    3300750: poutre hrisontal 422
+    3300752: poutre hrisontal 423
+    3300754: poutre hrisontal 424
+    3300756: poutre hrisontal 425
+    3300758: poutre hrisontal 426
+    3300760: poutre hrisontal 427
+    3300762: poutre hrisontal 428
+    3300764: poutre hrisontal 429
+    3300766: poutre hrisontal 43
+    3300768: poutre hrisontal 44
+    3300770: poutre hrisontal 45
+    3300772: poutre hrisontal 46
+    3300774: poutre hrisontal 47
+    3300776: poutre hrisontal 48
+    3300778: poutre hrisontal 49
+    3300780: poutre hrisontal 5
+    3300782: poutre hrisontal 50
+    3300784: poutre hrisontal 51
+    3300786: poutre hrisontal 52
+    3300788: poutre hrisontal 53
+    3300790: poutre hrisontal 54
+    3300792: poutre hrisontal 55
+    3300794: poutre hrisontal 56
+    3300796: poutre hrisontal 57
+    3300798: poutre hrisontal 58
+    3300800: poutre hrisontal 59
+    3300802: poutre hrisontal 6
+    3300804: poutre hrisontal 60
+    3300806: poutre hrisontal 61
+    3300808: poutre hrisontal 62
+    3300810: poutre hrisontal 63
+    3300812: poutre hrisontal 64
+    3300814: poutre hrisontal 65
+    3300816: poutre hrisontal 66
+    3300818: poutre hrisontal 67
+    3300820: poutre hrisontal 68
+    3300822: poutre hrisontal 69
+    3300824: poutre hrisontal 7
+    3300826: poutre hrisontal 70
+    3300828: poutre hrisontal 71
+    3300830: poutre hrisontal 72
+    3300832: poutre hrisontal 73
+    3300834: poutre hrisontal 74
+    3300836: poutre hrisontal 75
+    3300838: poutre hrisontal 76
+    3300840: poutre hrisontal 77
+    3300842: poutre hrisontal 78
+    3300844: poutre hrisontal 79
+    3300846: poutre hrisontal 8
+    3300848: poutre hrisontal 80
+    3300850: poutre hrisontal 81
+    3300852: poutre hrisontal 82
+    3300854: poutre hrisontal 83
+    3300856: poutre hrisontal 84
+    3300858: poutre hrisontal 85
+    3300860: poutre hrisontal 86
+    3300862: poutre hrisontal 87
+    3300864: poutre hrisontal 88
+    3300866: poutre hrisontal 89
+    3300868: poutre hrisontal 9
+    3300870: poutre hrisontal 90
+    3300872: poutre hrisontal 91
+    3300874: poutre hrisontal 92
+    3300876: poutre hrisontal 93
+    3300878: poutre hrisontal 94
+    3300880: poutre hrisontal 95
+    3300882: poutre hrisontal 96
+    3300884: poutre hrisontal 97
+    3300886: poutre hrisontal 98
+    3300888: poutre hrisontal 99
+    4300000: Mesh Lisanne
+    4300002: Mesh Group 5
+    4300004: Mesh Group 7
+    4300006: Mesh Group 11
+    4300008: Mesh pillier1
+    4300010: Mesh Group 15
+    4300012: Mesh pillier2
+    4300014: Mesh poutre hrisontal
+    4300016: Mesh Component#7
+    4300018: Mesh pilier3
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
