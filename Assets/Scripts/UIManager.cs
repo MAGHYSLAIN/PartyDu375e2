@@ -5,33 +5,18 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour {
 
-    public Text textTimer;
-    public Text textArrived;
-    public Text textCone;
-    public GameObject car;
-    public float timer;
-    public float arrived;
-    public float score;
+	[SerializeField] private Text textTimer;
+	[SerializeField] private Text textArrived;
+	[SerializeField] private Text textCone;
 
-    // Use this for initialization
-    void Start () {
-        car = FindObjectOfType<UnityStandardAssets.Vehicles.Car.CarController>().gameObject;
-    }
-
-    // Update is called once per frame
     void Update() {
-
         //Get timer float from car score manager and put it in the ui text
-        timer = car.GetComponent<CarScoreManager>().timer;
-        textTimer.text = ""+ timer;
+		textTimer.text = CarScoreManager.Instance.timer.ToString();
 
         //Get arrived user float from car score manager and put it in the ui text
-        arrived = CarScoreManager.arrivedUser;
-        textArrived.text = "" + arrived;
+		textArrived.text = CarScoreManager.arrivedUser.ToString();
 
         //Get coneremoved float from car score manager and put it in the ui text
-        score= CarScoreManager.score;
-        textCone.text = "" + score;
-
+		textCone.text = CarScoreManager.Instance.score.ToString();
     }
 }

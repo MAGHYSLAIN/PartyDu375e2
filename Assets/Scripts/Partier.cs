@@ -121,7 +121,7 @@ public class Partier : MonoBehaviour {
 		}
 		mat.color = newColor;
         CarScoreManager.arrivedUser++;
-        CarScoreManager.score++;
+        CarScoreManager.Instance.score++;
         Destroy(this.gameObject);
 	}
 }
