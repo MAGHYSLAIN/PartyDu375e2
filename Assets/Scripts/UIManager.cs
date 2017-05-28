@@ -18,7 +18,7 @@ public class UIManager : MonoBehaviour {
 
     void Update() {
         //Get timer float from car score manager and put it in the ui text
-		textTimer.text = "Timer: "+CarScoreManager.Instance.timer.ToString("F");
+		textTimer.text = "Timer: "+CarScoreManager.Instance.timer.ToString("N0")+" seconds";
 
         //Get arrived user float from car score manager and put it in the ui text
 		textArrived.text = "Arrived: " + CarScoreManager.arrivedUser.ToString();
