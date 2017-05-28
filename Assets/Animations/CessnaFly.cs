@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class CessnaFly : MonoBehaviour {
-
+	
 	private GameObject pivot;
 	[SerializeField] private float radius = 50f;
 	[SerializeField] private float tilt = 24f;
 	[SerializeField] private float flySpeed = 24f;
 
 	void Start () {
-		pivot = new GameObject("Airplane_pivot");
+		pivot = new GameObject("Fly_pivot");
 
 		pivot.transform.position = this.transform.position;
 		this.transform.parent = pivot.transform;

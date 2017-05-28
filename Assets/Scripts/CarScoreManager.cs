@@ -171,7 +171,6 @@ public class CarScoreManager : MonoBehaviour {
     case "arrived":
                 score += arrivedScore;
                 GameObject arrivedRetro = Instantiate(Resources.Load("RetroactionArrived")) as GameObject;
-                print(arrivedRetro.GetComponentInChildren<Text>());
                 arrivedRetro.GetComponentInChildren<Text>().text = retroArrived;
                 Destroy(arrivedRetro, 2f);
                 break;
