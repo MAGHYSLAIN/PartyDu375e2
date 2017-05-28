@@ -33,7 +33,6 @@ public class Partier : MonoBehaviour {
 	}
 
 	IEnumerator Start () {
-
 		m_agent = GetComponent<NavMeshAgent>();
 		rb = GetComponent<Rigidbody>();
 		coll = GetComponent<Collider>();
@@ -62,7 +61,7 @@ public class Partier : MonoBehaviour {
 		m_agent.destination = target.position;
 
 		// If partier is within radius, they're at the party. wooo!
-		if (m_agent.remainingDistance < distanceThreshold && m_agent.remainingDistance != 0) {
+		if (Vector3.Distance(this.transform.position, target.position) < distanceThreshold) {
 			AtTheParty ();
 		}
 	}
