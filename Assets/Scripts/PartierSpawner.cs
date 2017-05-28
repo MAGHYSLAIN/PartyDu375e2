@@ -16,9 +16,13 @@ public class PartierSpawner : MonoBehaviour {
 
 	void Awake () {
 		// Add the partier prefabs, find them by name
-		partierPrefabs.Add((GameObject)Resources.Load("Partiers/ChildPartier"));
-		partierPrefabs.Add((GameObject)Resources.Load("Partiers/FemalePartier"));
-		partierPrefabs.Add((GameObject)Resources.Load("Partiers/MalePartier"));
+		partierPrefabs.Add((GameObject)Resources.Load("Partiers/MalePartierA"));
+		partierPrefabs.Add((GameObject)Resources.Load("Partiers/MalePartierB"));
+		partierPrefabs.Add((GameObject)Resources.Load("Partiers/MalePartierC"));
+		partierPrefabs.Add((GameObject)Resources.Load("Partiers/MalePartierD"));
+		partierPrefabs.Add((GameObject)Resources.Load("Partiers/MalePartierE"));
+		partierPrefabs.Add((GameObject)Resources.Load("Partiers/MalePartierF"));
+		partierPrefabs.Add((GameObject)Resources.Load("Partiers/MalePartierG"));
 
 		StartCoroutine (WaitToAddPartier());
 	}

@@ -4,11 +4,10 @@ using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
-[RequireComponent(typeof(Rigidbody))]
-[RequireComponent(typeof(Collider))]
 public class Partier : MonoBehaviour {
 	
-	public Transform target { get; set; }
+//	public Transform target { get; set; }
+	public Transform target;
 	private NavMeshAgent m_agent;
 	private Rigidbody rb;
 	private Collider coll;
@@ -39,6 +38,8 @@ public class Partier : MonoBehaviour {
 		target = GameObject.Find("Target").transform;
 		if (target == null)
 			Debug.LogError("Place a GameObject named \"Target\" in the scene");
+
+		m_agent.destination = target.position;
 	}
 
 	void Update () {
@@ -47,14 +48,14 @@ public class Partier : MonoBehaviour {
 			return;
 		}
 
-		if (!m_agent.isOnNavMesh)
+		if (!m_agent.isOnNavMesh) {
 			return;
-			
-		if (m_agent.enabled)
-			m_agent.destination = target.position;
+		}
+
+		m_agent.destination = target.position;
 
 		// If partier is within radius, they're at the party. wooo!
-		if (Vector3.Distance(m_agent.destination, this.transform.position) < distanceThreshold) {
+		if (m_agent.remainingDistance < distanceThreshold) {
 			AtTheParty ();
 		}
 	}
@@ -65,7 +66,6 @@ public class Partier : MonoBehaviour {
 	}
 
 	void OnTriggerEnter (Collider coll) {
-
 		if (coll.tag == "Player") {
 			Dazed(coll.GetComponentInParent<Rigidbody>());
 		}
