@@ -11,6 +11,7 @@ public class CarScoreManager : MonoBehaviour {
     public static int totalObstacle;
     public float timer;
     public static int arrivedUser;
+    public static float speedPowerUpDown;
     public float coneRemoved;
     public float score;
 	public static ConeSpawner[] coneSpawners;
@@ -52,6 +53,16 @@ public class CarScoreManager : MonoBehaviour {
         {
             coneFrequencyTimer = Mathf.Lerp(3, 0.5f, (timer/375));
             SpawnCone();
+            if (speedPowerUpDown > 1)
+                            {
+                speedPowerUpDown -= 0.1f;
+                Mathf.Clamp(speedPowerUpDown, 1, 2);
+                            }
+                        else if (speedPowerUpDown < 1)
+                            {
+                speedPowerUpDown += 0.1f;
+                Mathf.Clamp(speedPowerUpDown, 0, 0.8f);
+                           }
         }
 
         if (chickenFrequencyTimer < 0)
@@ -105,6 +116,18 @@ public class CarScoreManager : MonoBehaviour {
             totalObstacle++;
         }
     }
-
+    public void PowerUpDown(bool upDown)
+    {
+ 
+        if (upDown)
+        {
+            speedPowerUpDown = speedPowerUpDown* 1.02f;
+ 
+        }
+        else
+       {
+            speedPowerUpDown= speedPowerUpDown* 0.98f;
+        }
+    }
 
 }

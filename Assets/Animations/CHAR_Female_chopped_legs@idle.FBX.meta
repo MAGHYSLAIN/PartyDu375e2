@@ -1,41 +1,34 @@
 fileFormatVersion: 2
-guid: 0d35c4b4aebff4f19b98733942eeee96
-timeCreated: 1495923297
+guid: e80973db2191e0d42b758497edf92e4e
+timeCreated: 1495974924
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Bn_Head
-    100004: Bn_L_Forearm
-    100006: Bn_L_Hand
-    100008: Bn_L_Upperarm
-    100010: Bn_Neck
-    100012: Bn_R_Forearm
-    100014: Bn_R_Hand
-    100016: Bn_R_Upperarm
-    100018: Bn_Root
-    100020: Bn_Spine1
-    100022: Bn_Spine2
-    100024: CHAR_Female
-    400000: //RootNode
-    400002: Bn_Head
-    400004: Bn_L_Forearm
-    400006: Bn_L_Hand
-    400008: Bn_L_Upperarm
-    400010: Bn_Neck
-    400012: Bn_R_Forearm
-    400014: Bn_R_Hand
-    400016: Bn_R_Upperarm
-    400018: Bn_Root
-    400020: Bn_Spine1
-    400022: Bn_Spine2
-    400024: CHAR_Female
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: CHAR_Female
+    100000: Bn_Head
+    100002: Bn_L_Forearm
+    100004: Bn_L_Hand
+    100006: Bn_L_Upperarm
+    100008: Bn_Neck
+    100010: Bn_R_Forearm
+    100012: Bn_R_Hand
+    100014: Bn_R_Upperarm
+    100016: Bn_Spine1
+    100018: Bn_Spine2
+    100020: //RootNode
+    400000: Bn_Head
+    400002: Bn_L_Forearm
+    400004: Bn_L_Hand
+    400006: Bn_L_Upperarm
+    400008: Bn_Neck
+    400010: Bn_R_Forearm
+    400012: Bn_R_Hand
+    400014: Bn_R_Upperarm
+    400016: Bn_Spine1
+    400018: Bn_Spine2
+    400020: //RootNode
+    7400000: CHAR_Female_chopped_legs
     9500000: //RootNode
-    13700000: CHAR_Female
   materials:
     importMaterials: 1
     materialName: 0
@@ -62,7 +55,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 20
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

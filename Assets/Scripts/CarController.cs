@@ -207,7 +207,7 @@ namespace UnityStandardAssets.Vehicles.Car
 
         private void ApplyDrive(float accel, float footbrake)
         {
-
+            accel = accel * CarScoreManager.speedPowerUpDown;
             float thrustTorque;
             switch (m_CarDriveType)
             {
