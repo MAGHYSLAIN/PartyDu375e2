@@ -1,21 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-<<<<<<< HEAD
+
 using UnityEngine.UI;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
 [RequireComponent(typeof(AudioSource))]
->>>>>>> cccad5437ab569db478c21cb988509cc826bd50d
-=======
+
 [RequireComponent(typeof(AudioSource))]
->>>>>>> cccad5437ab569db478c21cb988509cc826bd50d
-=======
+
 [RequireComponent(typeof(AudioSource))]
->>>>>>> cccad5437ab569db478c21cb988509cc826bd50d
+
 public class CarScoreManager : MonoBehaviour {
 	public static CarScoreManager Instance { get; private set; }
 
