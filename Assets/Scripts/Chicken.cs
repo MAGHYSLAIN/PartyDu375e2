@@ -12,7 +12,8 @@ public class Chicken : MonoBehaviour {
         {
             CarScoreManager.chickenInPlay--;
             CarScoreManager.totalObstacle--;
-            CarScoreManager.Instance.score++;
+            // CarScoreManager.Instance.score++;
+            CarScoreManager.Instance.AddScore("chicken");
             spawner.GetComponent<ChickenSpawner>().hasChicken = false;
             Destroy(this.gameObject);
         }
