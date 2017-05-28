@@ -5,8 +5,12 @@ using UnityEngine;
 using UnityEngine.UI;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
+[RequireComponent(typeof(AudioSource))]
+>>>>>>> cccad5437ab569db478c21cb988509cc826bd50d
+=======
 [RequireComponent(typeof(AudioSource))]
 >>>>>>> cccad5437ab569db478c21cb988509cc826bd50d
 =======
