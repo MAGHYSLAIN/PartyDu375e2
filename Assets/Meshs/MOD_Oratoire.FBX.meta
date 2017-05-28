@@ -1,13 +1,27 @@
 fileFormatVersion: 2
-guid: 412b008b972ab944096c0f1ddaab3b4e
+guid: 162cc10062f229b42bfb436d294a17d5
+timeCreated: 1495949151
+licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: batiment_A
+    100000: croix001
+    100002: //RootNode
+    100004: Oratoire
+    100006: oratoire
+    400000: croix001
+    400002: //RootNode
+    400004: Oratoire
+    400006: oratoire
+    2300000: croix001
+    2300002: Oratoire
+    2300004: oratoire
+    3300000: croix001
+    3300002: Oratoire
+    3300004: oratoire
+    4300000: Oratoire
+    4300002: croix001
+    4300004: oratoire
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -35,7 +49,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

@@ -1,13 +1,47 @@
 fileFormatVersion: 2
-guid: 412b008b972ab944096c0f1ddaab3b4e
+guid: 9fe19bf1431e29144bf9ea4759cfab1c
+timeCreated: 1495949158
+licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: batiment_A
+    100000: Bateau001
+    100002: //RootNode
+    100004: Torus009
+    100006: Torus010
+    100008: Torus011
+    100010: Torus012
+    100012: Torus013
+    100014: Torus014
+    400000: Bateau001
+    400002: //RootNode
+    400004: Torus009
+    400006: Torus010
+    400008: Torus011
+    400010: Torus012
+    400012: Torus013
+    400014: Torus014
+    2300000: Bateau001
+    2300002: Torus009
+    2300004: Torus010
+    2300006: Torus011
+    2300008: Torus012
+    2300010: Torus013
+    2300012: Torus014
+    3300000: Bateau001
+    3300002: Torus009
+    3300004: Torus010
+    3300006: Torus011
+    3300008: Torus012
+    3300010: Torus013
+    3300012: Torus014
+    4300000: Torus014
+    4300002: Torus013
+    4300004: Torus012
+    4300006: Torus011
+    4300008: Torus010
+    4300010: Torus009
+    4300012: Bateau001
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -35,7 +69,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

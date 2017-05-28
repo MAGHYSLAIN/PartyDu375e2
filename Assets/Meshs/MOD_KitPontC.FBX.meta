@@ -1,5 +1,7 @@
 fileFormatVersion: 2
-guid: 412b008b972ab944096c0f1ddaab3b4e
+guid: c282b61d5cb2abc449061f1d29582c46
+timeCreated: 1495949160
+licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -7,7 +9,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: batiment_A
+    4300000: PC
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -35,7 +37,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
