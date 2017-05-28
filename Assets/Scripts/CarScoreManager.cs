@@ -12,15 +12,15 @@ public class CarScoreManager : MonoBehaviour {
     public float timer;
     public static int arrivedUser;
     public float coneRemoved;
-    public static float score;
+    public float score;
 	public static ConeSpawner[] coneSpawner;
 	public static List<ConeSpawner> availableCone = new List<ConeSpawner>();
     public static GameObject[] chickenSpawner;
     public static List<GameObject> availableChicken = new List<GameObject>();
-    float coneFrequency=5;
+    float coneFrequency=1.5f;
     [SerializeField]
     float coneFrequencyTimer;
-    float chickenFrequency = 5;
+    float chickenFrequency =5f;
     float chickenFrequencyTimer;
 
 	public Animator anim;
@@ -39,7 +39,7 @@ public class CarScoreManager : MonoBehaviour {
         timer = 375;
 		coneSpawner = FindObjectsOfType<ConeSpawner>();
         chickenSpawner = GameObject.FindGameObjectsWithTag("ChickenSpawner");
-        coneFrequencyTimer = 5;
+        coneFrequencyTimer = 0.5f;
         chickenFrequencyTimer = 5;
     }
 	
@@ -50,7 +50,7 @@ public class CarScoreManager : MonoBehaviour {
         chickenFrequencyTimer = chickenFrequencyTimer - Time.deltaTime;
         if (coneFrequencyTimer<0)
         {
-            coneFrequencyTimer = coneFrequency;
+            coneFrequencyTimer = Mathf.Lerp(3, 0.5f, (timer/375));
             SpawnCone();
         }
 
@@ -99,7 +99,7 @@ public class CarScoreManager : MonoBehaviour {
         {
             int rng1 = Random.Range(0, availableChicken.Count - 1);
             GameObject chickenClone = Instantiate(Resources.Load("Poulet"), availableChicken[rng1].transform.position, Quaternion.identity) as GameObject;
-            chickenClone.GetComponent<Chicken>().spawner = availableChicken[rng1];
+            chickenClone.GetComponentInChildren<Chicken>().spawner = availableChicken[rng1];
             availableChicken[rng1].GetComponent<ChickenSpawner>().hasChicken = true;
             chickenInPlay++;
             totalObstacle++;
