@@ -47,6 +47,8 @@ public class Partier : MonoBehaviour {
 			Debug.LogError("Place a GameObject named \"Target\" in the scene");
 
 		m_agent.destination = target.position;
+
+		Destroy(this.gameObject, 30f);
 	}
 
 	void Update () {
