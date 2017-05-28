@@ -2,7 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.UI;
+
+
 [RequireComponent(typeof(AudioSource))]
+
+[RequireComponent(typeof(AudioSource))]
+
+[RequireComponent(typeof(AudioSource))]
+
 public class CarScoreManager : MonoBehaviour {
 	public static CarScoreManager Instance { get; private set; }
 
@@ -17,6 +25,9 @@ public class CarScoreManager : MonoBehaviour {
     public float arrivedScore;
     public float coneScore;
     public float chickenScore;
+    public string retroCone="Cone Removed!!!";
+    public string retroChicken= "Nid de poule covered!!!";
+    public string retroArrived= "A Partier arrived!!!";
     public static ConeSpawner[] coneSpawners;
 	public static List<ConeSpawner> availableCones = new List<ConeSpawner>();
 	public static ChickenSpawner[] chickenSpawners;
@@ -138,19 +149,31 @@ public class CarScoreManager : MonoBehaviour {
             speedPowerUpDown= speedPowerUpDown* 0.98f;
         }
     }
+    
 
     public void AddScore(string type)
     {
+        
         switch (type)
         {
     case "cone":
                 score += coneScore;
+                GameObject coneRetro = Instantiate(Resources.Load("RetroactionArrived")) as GameObject;
+                coneRetro.GetComponentInChildren<Text>().text =retroCone;
+                Destroy(coneRetro, 2f);
                 break;
     case "chicken":
                 score += chickenScore;
+                GameObject chickenRetro = Instantiate(Resources.Load("RetroactionArrived")) as GameObject;
+                chickenRetro.GetComponentInChildren<Text>().text = retroChicken;  
+                Destroy(chickenRetro, 2f); 
                 break;
     case "arrived":
                 score += arrivedScore;
+                GameObject arrivedRetro = Instantiate(Resources.Load("RetroactionArrived")) as GameObject;
+                print(arrivedRetro.GetComponentInChildren<Text>());
+                arrivedRetro.GetComponentInChildren<Text>().text = retroArrived;
+                Destroy(arrivedRetro, 2f);
                 break;
         }
     }
