@@ -4,12 +4,14 @@ using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
+[RequireComponent(typeof(AudioSource))]
 public class Partier : MonoBehaviour {
 	
 	public Transform target { get; set; }
 	private NavMeshAgent m_agent;
 	private Rigidbody rb;
 	private Collider coll;
+	private AudioSource audio;
 
 	private IEnumerator dazedCoroutine;
 
@@ -26,14 +28,19 @@ public class Partier : MonoBehaviour {
 	[SerializeField]
 	private float fadeInSpeed = 1f;
 
+	void Awake () {
+		audio = GetComponent<AudioSource>();
+	}
+
 	IEnumerator Start () {
-		yield return new WaitForSeconds(1f);
 
 		m_agent = GetComponent<NavMeshAgent>();
 		rb = GetComponent<Rigidbody>();
 		coll = GetComponent<Collider>();
 		rb.isKinematic = true;
 		coll.isTrigger = true;
+
+		yield return new WaitForSeconds(1f);
 
 		// TODO: Temporary, use better way of finding the target
 		target = GameObject.Find("Target").transform;
@@ -68,6 +75,8 @@ public class Partier : MonoBehaviour {
 	void OnTriggerEnter (Collider coll) {
 		if (coll.tag == "Player") {
 			Dazed(coll.GetComponentInParent<Rigidbody>());
+
+			audio.Play();
 		}
 	}
 

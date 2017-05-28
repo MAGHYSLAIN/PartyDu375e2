@@ -8,6 +8,13 @@ public class UIManager : MonoBehaviour {
 	[SerializeField] private Text textTimer;
 	[SerializeField] private Text textArrived;
 	[SerializeField] private Text textCone;
+    [SerializeField] private Text textInstruction;
+
+
+    void Start()
+    {
+        Destroy(textInstruction, 5f);
+    }
 
     void Update() {
         //Get timer float from car score manager and put it in the ui text

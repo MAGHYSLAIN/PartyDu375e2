@@ -1,8 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
+using UnityEngine.UI;
 
+<<<<<<< HEAD
+=======
 
+[RequireComponent(typeof(AudioSource))]
+>>>>>>> cccad5437ab569db478c21cb988509cc826bd50d
+=======
+[RequireComponent(typeof(AudioSource))]
+>>>>>>> cccad5437ab569db478c21cb988509cc826bd50d
 public class CarScoreManager : MonoBehaviour {
 	public static CarScoreManager Instance { get; private set; }
 
@@ -17,6 +26,9 @@ public class CarScoreManager : MonoBehaviour {
     public float arrivedScore;
     public float coneScore;
     public float chickenScore;
+    public string retroCone="Cone Removed!!!";
+    public string retroChicken= "Nid de poule covered!!!";
+    public string retroArrived= "A Partier arrived!!!";
     public static ConeSpawner[] coneSpawners;
 	public static List<ConeSpawner> availableCones = new List<ConeSpawner>();
 	public static ChickenSpawner[] chickenSpawners;
@@ -29,6 +41,8 @@ public class CarScoreManager : MonoBehaviour {
 
 	public Animator anim;
 
+	private AudioSource audio;
+
 	void Awake () {
 		if (Instance != null && Instance != this) {
 			Destroy(this.gameObject);
@@ -37,6 +51,7 @@ public class CarScoreManager : MonoBehaviour {
 		}
 
 		anim = GetComponent<Animator>();
+		audio = GetComponent<AudioSource>();
 	}
 
     void Start () {
@@ -135,20 +150,41 @@ public class CarScoreManager : MonoBehaviour {
             speedPowerUpDown= speedPowerUpDown* 0.98f;
         }
     }
+    
 
     public void AddScore(string type)
     {
+        
         switch (type)
         {
     case "cone":
                 score += coneScore;
+                GameObject coneRetro = Instantiate(Resources.Load("RetroactionArrived")) as GameObject;
+                coneRetro.GetComponentInChildren<Text>().text =retroCone;
+                Destroy(coneRetro, 2f);
                 break;
     case "chicken":
                 score += chickenScore;
+                GameObject chickenRetro = Instantiate(Resources.Load("RetroactionArrived")) as GameObject;
+                chickenRetro.GetComponentInChildren<Text>().text = retroChicken;  
+                Destroy(chickenRetro, 2f); 
                 break;
     case "arrived":
                 score += arrivedScore;
+                GameObject arrivedRetro = Instantiate(Resources.Load("RetroactionArrived")) as GameObject;
+                print(arrivedRetro.GetComponentInChildren<Text>());
+                arrivedRetro.GetComponentInChildren<Text>().text = retroArrived;
+                Destroy(arrivedRetro, 2f);
                 break;
         }
     }
+
+	void OnCollisionEnter (Collision other) {
+		// Don't make a crash sound for partier collision
+		if (other.collider.GetComponent<Partier>() != null)
+			return;
+		
+		audio.volume = Mathf.InverseLerp(0f, 40f, other.relativeVelocity.magnitude);
+		audio.Play();
+	}
 }
