@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: 8dbbb9b2d79b8a64e90d5c354f2f1abb
+timeCreated: 1495944899
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bateau
+    100002: Box033
+    100004: Box034
+    100006: CHAR_Female001
+    100008: croix002
+    100010: estrade
+    100012: estrade001
+    100014: estrade002
+    100016: estrade003
+    100018: estrade004
+    100020: estrade005
+    100022: estrade006
+    100024: estrade007
+    100026: Group001
+    100028: Group003
+    100030: Group005
+    100032: //RootNode
+    100034: Mont Royal
+    100036: Object002
+    100038: Text001
+    100040: Torus001
+    100042: Torus002
+    100044: Torus003
+    100046: Torus004
+    100048: Torus005
+    100050: Torus006
+    400000: Bateau
+    400002: Box033
+    400004: Box034
+    400006: CHAR_Female001
+    400008: croix002
+    400010: estrade
+    400012: estrade001
+    400014: estrade002
+    400016: estrade003
+    400018: estrade004
+    400020: estrade005
+    400022: estrade006
+    400024: estrade007
+    400026: Group001
+    400028: Group003
+    400030: Group005
+    400032: //RootNode
+    400034: Mont Royal
+    400036: Object002
+    400038: Text001
+    400040: Torus001
+    400042: Torus002
+    400044: Torus003
+    400046: Torus004
+    400048: Torus005
+    400050: Torus006
+    2300000: Bateau
+    2300002: Box033
+    2300004: Box034
+    2300006: CHAR_Female001
+    2300008: croix002
+    2300010: estrade
+    2300012: estrade001
+    2300014: estrade002
+    2300016: estrade003
+    2300018: estrade004
+    2300020: estrade005
+    2300022: estrade006
+    2300024: estrade007
+    2300026: Mont Royal
+    2300028: Object002
+    2300030: Text001
+    2300032: Torus001
+    2300034: Torus002
+    2300036: Torus003
+    2300038: Torus004
+    2300040: Torus005
+    2300042: Torus006
+    3300000: Bateau
+    3300002: Box033
+    3300004: Box034
+    3300006: CHAR_Female001
+    3300008: croix002
+    3300010: estrade
+    3300012: estrade001
+    3300014: estrade002
+    3300016: estrade003
+    3300018: estrade004
+    3300020: estrade005
+    3300022: estrade006
+    3300024: estrade007
+    3300026: Mont Royal
+    3300028: Object002
+    3300030: Text001
+    3300032: Torus001
+    3300034: Torus002
+    3300036: Torus003
+    3300038: Torus004
+    3300040: Torus005
+    3300042: Torus006
+    4300000: Mont Royal
+    4300002: estrade003
+    4300004: estrade002
+    4300006: estrade001
+    4300008: estrade
+    4300010: estrade007
+    4300012: estrade004
+    4300014: estrade005
+    4300016: estrade006
+    4300018: Box034
+    4300020: Box033
+    4300022: Text001
+    4300024: Object002
+    4300026: croix002
+    4300028: CHAR_Female001
+    4300030: Torus005
+    4300032: Torus003
+    4300034: Torus002
+    4300036: Bateau
+    4300038: Torus001
+    4300040: Torus004
+    4300042: Torus006
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
