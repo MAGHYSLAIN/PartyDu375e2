@@ -71,7 +71,7 @@ public class CarScoreManager : MonoBehaviour {
         chickenFrequencyTimer = chickenFrequencyTimer - Time.deltaTime;
         if (coneFrequencyTimer<0)
         {
-            coneFrequencyTimer = Mathf.Lerp(3, 0.5f, (timer/375));
+            coneFrequencyTimer = Mathf.Lerp(3, 0.2f, (timer/375));
             SpawnCone();
             if (speedPowerUpDown > 1)
                             {
