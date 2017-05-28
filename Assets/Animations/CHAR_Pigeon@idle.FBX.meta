@@ -1,36 +1,30 @@
 fileFormatVersion: 2
-guid: 939259d334a5a472b8e13756526eec1e
-timeCreated: 1495971017
+guid: 5e640a99f10c6433d888b87aa88615fc
+timeCreated: 1495985294
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Bn_L_Wing1
-    100004: Bn_L_Wing2
-    100006: Bn_L_Wing3
-    100008: Bn_R_Wing1
-    100010: Bn_R_Wing2
-    100012: Bn_R_Wing3
-    100014: Bn_Root
-    100016: Bn_Tail
-    100018: Pigeon
-    400000: //RootNode
-    400002: Bn_L_Wing1
-    400004: Bn_L_Wing2
-    400006: Bn_L_Wing3
-    400008: Bn_R_Wing1
-    400010: Bn_R_Wing2
-    400012: Bn_R_Wing3
-    400014: Bn_Root
-    400016: Bn_Tail
-    400018: Pigeon
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Sphere005
-    4300002: Pigeon
+    100000: Bn_L_Wing1
+    100002: Bn_L_Wing2
+    100004: Bn_L_Wing3
+    100006: Bn_R_Wing1
+    100008: Bn_R_Wing2
+    100010: Bn_R_Wing3
+    100012: Bn_Root
+    100014: Bn_Tail
+    100016: //RootNode
+    400000: Bn_L_Wing1
+    400002: Bn_L_Wing2
+    400004: Bn_L_Wing3
+    400006: Bn_R_Wing1
+    400008: Bn_R_Wing2
+    400010: Bn_R_Wing3
+    400012: Bn_Root
+    400014: Bn_Tail
+    400016: //RootNode
+    7400000: CHAR_Pigeon@idle
     9500000: //RootNode
-    13700000: Pigeon
   materials:
     importMaterials: 1
     materialName: 0
