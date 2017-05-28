@@ -2,9 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class Cone : MonoBehaviour {
 	
 	public ConeSpawner spawner;
+
+	private AudioSource audio;
+
+	void Awake () {
+		audio = GetComponent<AudioSource>();
+	}
 
     void OnTriggerEnter(Collider other)
     {
@@ -22,13 +29,21 @@ public class Cone : MonoBehaviour {
         //CarScoreManager.Instance.score++;
         CarScoreManager.Instance.AddScore("cone");
 		spawner.HasCone = false;
-		CarScoreManager.Instance.anim.SetTrigger("pickup");
+		CarScoreManager.Instance.anim.SetTrigger("pickup");	
 
 		StartCoroutine(WaitToDisappear ());
 	}
 
 	private IEnumerator WaitToDisappear () {
-		yield return new WaitForSeconds(0f);
+		audio.Play();
+
+		Destroy(GetComponent<Collider>());
+		Destroy(GetComponentInChildren<SkinnedMeshRenderer>());
+
+		while (audio.isPlaying) {
+			yield return null;
+		}
+
 		Destroy(this.gameObject);
 	}
 }
