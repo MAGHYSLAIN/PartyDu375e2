@@ -26,7 +26,9 @@ public class Partier : MonoBehaviour {
 	[SerializeField]
 	private float fadeInSpeed = 1f;
 
-	void Start () {
+	IEnumerator Start () {
+		yield return new WaitForSeconds(1f);
+
 		m_agent = GetComponent<NavMeshAgent>();
 		rb = GetComponent<Rigidbody>();
 		coll = GetComponent<Collider>();
@@ -43,7 +45,6 @@ public class Partier : MonoBehaviour {
 
 	void Update () {
 		if (target == null) {
-			Debug.LogError("Assign a target");
 			return;
 		}
 

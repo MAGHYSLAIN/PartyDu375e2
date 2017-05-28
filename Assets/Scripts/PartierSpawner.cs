@@ -8,9 +8,9 @@ public class PartierSpawner : MonoBehaviour {
 
 	// The minimum and maximum amount of time to wait for the next partier to spawn
 	[SerializeField]
-	private float waitMin = 0.5f;
+	private float waitMin = 5f;
 	[SerializeField]
-	private float waitMax = 1f;
+	private float waitMax = 10f;
 
 	private List<GameObject> partierPrefabs = new List<GameObject>();
 

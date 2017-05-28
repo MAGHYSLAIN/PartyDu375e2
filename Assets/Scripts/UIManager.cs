@@ -11,12 +11,12 @@ public class UIManager : MonoBehaviour {
 
     void Update() {
         //Get timer float from car score manager and put it in the ui text
-		textTimer.text = CarScoreManager.Instance.timer.ToString("F");
+		textTimer.text = "Timer: "+CarScoreManager.Instance.timer.ToString("F");
 
         //Get arrived user float from car score manager and put it in the ui text
-		textArrived.text = CarScoreManager.arrivedUser.ToString();
+		textArrived.text = "Arrived: " + CarScoreManager.arrivedUser.ToString();
 
         //Get coneremoved float from car score manager and put it in the ui text
-		textCone.text = CarScoreManager.Instance.score.ToString();
+		textCone.text = "Score: " + CarScoreManager.Instance.score.ToString();
     }
 }
