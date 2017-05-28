@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
+[RequireComponent(typeof(AudioSource))]
 public class CarScoreManager : MonoBehaviour {
 	public static CarScoreManager Instance { get; private set; }
 
@@ -29,6 +29,8 @@ public class CarScoreManager : MonoBehaviour {
 
 	public Animator anim;
 
+	private AudioSource audio;
+
 	void Awake () {
 		if (Instance != null && Instance != this) {
 			Destroy(this.gameObject);
@@ -37,6 +39,7 @@ public class CarScoreManager : MonoBehaviour {
 		}
 
 		anim = GetComponent<Animator>();
+		audio = GetComponent<AudioSource>();
 	}
 
     void Start () {
@@ -151,4 +154,13 @@ public class CarScoreManager : MonoBehaviour {
                 break;
         }
     }
+
+	void OnCollisionEnter (Collision other) {
+		// Don't make a crash sound for partier collision
+		if (other.collider.GetComponent<Partier>() != null)
+			return;
+		
+		audio.volume = Mathf.InverseLerp(0f, 40f, other.relativeVelocity.magnitude);
+		audio.Play();
+	}
 }
