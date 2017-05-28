@@ -4,16 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class EndGame : MonoBehaviour {
-    public Text score;
+    [SerializeField] private Text score;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
 	void Update () {
-        score.text = ""+ CarScoreManager.score;
-
+		score.text = CarScoreManager.Instance.score.ToString();
     }
 }
