@@ -13,10 +13,10 @@ public class CarScoreManager : MonoBehaviour {
     public static int arrivedUser;
     public float coneRemoved;
     public float score;
-	public static ConeSpawner[] coneSpawner;
-	public static List<ConeSpawner> availableCone = new List<ConeSpawner>();
-    public static GameObject[] chickenSpawner;
-    public static List<GameObject> availableChicken = new List<GameObject>();
+	public static ConeSpawner[] coneSpawners;
+	public static List<ConeSpawner> availableCones = new List<ConeSpawner>();
+	public static ChickenSpawner[] chickenSpawners;
+	public static List<ChickenSpawner> availableChickens = new List<ChickenSpawner>();
     float coneFrequency=1.5f;
     [SerializeField]
     float coneFrequencyTimer;
@@ -37,8 +37,8 @@ public class CarScoreManager : MonoBehaviour {
 
     void Start () {
         timer = 375;
-		coneSpawner = FindObjectsOfType<ConeSpawner>();
-        chickenSpawner = GameObject.FindGameObjectsWithTag("ChickenSpawner");
+		coneSpawners = FindObjectsOfType<ConeSpawner>();
+		chickenSpawners = FindObjectsOfType<ChickenSpawner>();
         coneFrequencyTimer = 0.5f;
         chickenFrequencyTimer = 5;
     }
@@ -63,21 +63,21 @@ public class CarScoreManager : MonoBehaviour {
 
     public void SpawnCone()
     {
-		availableCone.Clear();
-        for (int i =0; i<coneSpawner.Length; i++)
+		availableCones.Clear();
+        for (int i =0; i<coneSpawners.Length; i++)
         {
-            if (!coneSpawner[i].GetComponent<ConeSpawner>().HasCone)
+            if (!coneSpawners[i].HasCone)
             {
-                availableCone.Add(coneSpawner[i]);
+                availableCones.Add(coneSpawners[i]);
             }
         }
 
-		if (availableCone.Count >= 1)
+		if (availableCones.Count >= 1)
 		{
-			int rng = Random.Range(0, availableCone.Count - 1);
-			GameObject coneClone = Instantiate(Resources.Load("Cone"), availableCone[rng].transform.position, Quaternion.identity) as GameObject;
-			coneClone.GetComponent<Cone>().spawner = availableCone[rng];
-			availableCone[rng].GetComponent<ConeSpawner>().HasCone = true;
+			int rng = Random.Range(0, availableCones.Count - 1);
+			GameObject coneClone = Instantiate(Resources.Load("Cone"), availableCones[rng].transform.position, Quaternion.identity) as GameObject;
+			coneClone.GetComponent<Cone>().spawner = availableCones[rng];
+			availableCones[rng].HasCone = true;
 			coneInPlay++;
 			totalObstacle++;
 		}
@@ -85,22 +85,22 @@ public class CarScoreManager : MonoBehaviour {
 
     public void SpawnChicken()
     {
-        availableChicken.Clear();
-        for (int o = 0; o < chickenSpawner.Length; o++)
+        availableChickens.Clear();
+		for (int o = 0; o < chickenSpawners.Length; o++)
         {
-            if (!chickenSpawner[o].GetComponent<ChickenSpawner>().hasChicken)
+            if (!chickenSpawners[o].hasChicken)
             {
-                availableChicken.Add(chickenSpawner[o]);
+				availableChickens.Add(chickenSpawners[o]);
             }
 
         }
 
-        if (availableChicken.Count >= 1)
+        if (availableChickens.Count >= 1)
         {
-            int rng1 = Random.Range(0, availableChicken.Count - 1);
-            GameObject chickenClone = Instantiate(Resources.Load("Poulet"), availableChicken[rng1].transform.position, Quaternion.identity) as GameObject;
-            chickenClone.GetComponentInChildren<Chicken>().spawner = availableChicken[rng1];
-            availableChicken[rng1].GetComponent<ChickenSpawner>().hasChicken = true;
+            int rng1 = Random.Range(0, availableChickens.Count - 1);
+            GameObject chickenClone = Instantiate(Resources.Load("Poulet"), availableChickens[rng1].transform.position, Quaternion.identity) as GameObject;
+            chickenClone.GetComponentInChildren<Chicken>().spawner = availableChickens[rng1];
+            availableChickens[rng1].hasChicken = true;
             chickenInPlay++;
             totalObstacle++;
         }
