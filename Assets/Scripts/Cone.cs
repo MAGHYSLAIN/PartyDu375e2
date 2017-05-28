@@ -19,7 +19,8 @@ public class Cone : MonoBehaviour {
 		CarScoreManager.Instance.coneRemoved++;
 		CarScoreManager.coneInPlay--;
 		CarScoreManager.totalObstacle--;
-		CarScoreManager.Instance.score++;
+        //CarScoreManager.Instance.score++;
+        CarScoreManager.Instance.AddScore("cone");
 		spawner.HasCone = false;
 		CarScoreManager.Instance.anim.SetTrigger("pickup");
 

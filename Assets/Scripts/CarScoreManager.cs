@@ -14,7 +14,10 @@ public class CarScoreManager : MonoBehaviour {
     public static float speedPowerUpDown;
     public float coneRemoved;
     public float score;
-	public static ConeSpawner[] coneSpawners;
+    public float arrivedScore;
+    public float coneScore;
+    public float chickenScore;
+    public static ConeSpawner[] coneSpawners;
 	public static List<ConeSpawner> availableCones = new List<ConeSpawner>();
 	public static ChickenSpawner[] chickenSpawners;
 	public static List<ChickenSpawner> availableChickens = new List<ChickenSpawner>();
@@ -42,6 +45,9 @@ public class CarScoreManager : MonoBehaviour {
 		chickenSpawners = FindObjectsOfType<ChickenSpawner>();
         coneFrequencyTimer = 0.5f;
         chickenFrequencyTimer = 5;
+        arrivedScore = 500;
+        coneScore = 350;
+        chickenScore = 350;
     }
 	
 	void Update () {
@@ -130,4 +136,19 @@ public class CarScoreManager : MonoBehaviour {
         }
     }
 
+    public void AddScore(string type)
+    {
+        switch (type)
+        {
+    case "cone":
+                score += coneScore;
+                break;
+    case "chicken":
+                score += chickenScore;
+                break;
+    case "arrived":
+                score += arrivedScore;
+                break;
+        }
+    }
 }
