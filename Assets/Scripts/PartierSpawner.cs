@@ -42,4 +42,9 @@ public class PartierSpawner : MonoBehaviour {
 
 		StartCoroutine (WaitToAddPartier());
 	}
+
+	void OnDrawGizmos()
+	{
+		Gizmos.DrawIcon(transform.position,"partier" , true);
+	}
 }

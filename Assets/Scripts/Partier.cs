@@ -6,8 +6,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class Partier : MonoBehaviour {
 	
-//	public Transform target { get; set; }
-	public Transform target;
+	public Transform target { get; set; }
 	private NavMeshAgent m_agent;
 	private Rigidbody rb;
 	private Collider coll;
@@ -55,7 +54,7 @@ public class Partier : MonoBehaviour {
 		m_agent.destination = target.position;
 
 		// If partier is within radius, they're at the party. wooo!
-		if (m_agent.remainingDistance < distanceThreshold) {
+		if (m_agent.remainingDistance < distanceThreshold && m_agent.remainingDistance != 0) {
 			AtTheParty ();
 		}
 	}
