@@ -2,8 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class Chicken : MonoBehaviour {
+
 	public ChickenSpawner spawner;
+	private AudioSource audio;
+
+	void Awake () {
+		audio = GetComponent<AudioSource>();
+	}
 
     void OnTriggerEnter(Collider other)
     {
@@ -15,7 +22,20 @@ public class Chicken : MonoBehaviour {
             // CarScoreManager.Instance.score++;
             CarScoreManager.Instance.AddScore("chicken");
             spawner.GetComponent<ChickenSpawner>().hasChicken = false;
-            Destroy(this.gameObject);
+			StartCoroutine(WaitToDisappear ());
         }
     }
+
+	private IEnumerator WaitToDisappear () {
+		audio.Play();
+
+		Destroy(GetComponentInChildren<Collider>());
+		Destroy(GetComponentInChildren<MeshRenderer>());
+
+		while (audio.isPlaying) {
+			yield return null;
+		}
+
+		Destroy(this.gameObject);
+	}
 }
