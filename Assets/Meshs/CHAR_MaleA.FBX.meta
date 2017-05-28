@@ -1,70 +1,16 @@
 fileFormatVersion: 2
-guid: fb6aae0a2f7ef2e40a397fd31fc2384f
+guid: 7c4e510b8c785af43acb8d299c73c0bf
+timeCreated: 1495974779
+licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: bagel
-    100002: Baggle
-    100004: Baggle001
-    100006: Batiment_FF001
-    100008: //RootNode
-    100010: Object
-    100012: Object005
-    100014: Object007
-    100016: Object009
-    100018: Salade
-    100020: Salade001
-    100022: Salade002
-    100024: Tomate
-    100026: Tomate001
-    100028: Tomate002
-    100030: Tomate003
-    400000: bagel
-    400002: Baggle
-    400004: Baggle001
-    400006: Batiment_FF001
-    400008: //RootNode
-    400010: Object
-    400012: Object005
-    400014: Object007
-    400016: Object009
-    400018: Salade
-    400020: Salade001
-    400022: Salade002
-    400024: Tomate
-    400026: Tomate001
-    400028: Tomate002
-    400030: Tomate003
-    2300000: Batiment_FF001
-    2300002: Object
-    2300004: Object005
-    2300006: Object007
-    2300008: Object009
-    2300010: Salade
-    2300012: Salade002
-    2300014: Tomate
-    2300016: Tomate002
-    2300018: Tomate003
-    3300000: Batiment_FF001
-    3300002: Object
-    3300004: Object005
-    3300006: Object007
-    3300008: Object009
-    3300010: Salade
-    3300012: Salade002
-    3300014: Tomate
-    3300016: Tomate002
-    3300018: Tomate003
-    4300000: Object
-    4300002: Object005
-    4300004: Object009
-    4300006: Object007
-    4300008: Batiment_FF001
-    4300010: Tomate003
-    4300012: Tomate002
-    4300014: Tomate
-    4300016: Salade
-    4300018: Salade002
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: CHAR_Bucheron
+    7400000: Take 001
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -92,7 +38,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 40
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

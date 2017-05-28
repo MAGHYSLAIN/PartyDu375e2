@@ -6,11 +6,36 @@ ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Bn_Head
+    100004: Bn_L_Forearm
+    100006: Bn_L_Hand
+    100008: Bn_L_Upperarm
+    100010: Bn_Neck
+    100012: Bn_R_Forearm
+    100014: Bn_R_Hand
+    100016: Bn_R_Upperarm
+    100018: Bn_Root
+    100020: Bn_Spine1
+    100022: Bn_Spine2
+    100024: CHAR_Female
     400000: //RootNode
+    400002: Bn_Head
+    400004: Bn_L_Forearm
+    400006: Bn_L_Hand
+    400008: Bn_L_Upperarm
+    400010: Bn_Neck
+    400012: Bn_R_Forearm
+    400014: Bn_R_Hand
+    400016: Bn_R_Upperarm
+    400018: Bn_Root
+    400020: Bn_Spine1
+    400022: Bn_Spine2
+    400024: CHAR_Female
     2300000: //RootNode
     3300000: //RootNode
     4300000: CHAR_Female
     9500000: //RootNode
+    13700000: CHAR_Female
   materials:
     importMaterials: 1
     materialName: 0
