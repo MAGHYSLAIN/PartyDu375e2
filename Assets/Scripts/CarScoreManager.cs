@@ -23,6 +23,7 @@ public class CarScoreManager : MonoBehaviour {
     public float coneRemoved;
     public float score;
     public float arrivedScore;
+    public GameObject endgame;
     public float coneScore;
     public float chickenScore;
     public string retroCone="Cone Removed!!!";
@@ -54,7 +55,7 @@ public class CarScoreManager : MonoBehaviour {
 	}
 
     void Start () {
-        timer = 375;
+        timer = 180;
 		coneSpawners = FindObjectsOfType<ConeSpawner>();
 		chickenSpawners = FindObjectsOfType<ChickenSpawner>();
         coneFrequencyTimer = 0.5f;
@@ -65,10 +66,17 @@ public class CarScoreManager : MonoBehaviour {
     }
 	
 	void Update () {
-        timer = timer - Time.deltaTime;
 
+        timer = timer - Time.deltaTime;
         coneFrequencyTimer = coneFrequencyTimer-Time.deltaTime;
         chickenFrequencyTimer = chickenFrequencyTimer - Time.deltaTime;
+
+        if (timer <= 0)
+        {
+            endgame.gameObject.SetActive(true);
+        }
+
+
         if (coneFrequencyTimer<0)
         {
             coneFrequencyTimer = Mathf.Lerp(3, 0.2f, (timer/375));
