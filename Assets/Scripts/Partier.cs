@@ -48,7 +48,7 @@ public class Partier : MonoBehaviour {
 
 		m_agent.destination = target.position;
 
-		Destroy(this.gameObject, 30f);
+		
 	}
 
 	void Update () {

@@ -60,9 +60,9 @@ public class CarScoreManager : MonoBehaviour {
 		chickenSpawners = FindObjectsOfType<ChickenSpawner>();
         coneFrequencyTimer = 0.5f;
         chickenFrequencyTimer = 5;
-        arrivedScore = 500;
-        coneScore = 350;
-        chickenScore = 350;
+        arrivedScore = 1500;
+        coneScore = 450;
+        chickenScore = 450;
     }
 	
 	void Update () {
@@ -79,7 +79,7 @@ public class CarScoreManager : MonoBehaviour {
 
         if (coneFrequencyTimer<0)
         {
-            coneFrequencyTimer = Mathf.Lerp(3, 0.2f, (timer/375));
+            coneFrequencyTimer = Mathf.Lerp(3, 0.1f, (timer/180));
             SpawnCone();
             if (speedPowerUpDown > 1)
                             {
