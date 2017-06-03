@@ -28,6 +28,10 @@ public class MainMenu : MonoBehaviour {
     {
         SceneManager.LoadScene("MTL2");
     }
+	public void StartGame(2)
+	{
+		SceneManager.LoadScene("MTL2");
+	}
     public void Back()
     {
         mainMenu.gameObject.SetActive(true);
