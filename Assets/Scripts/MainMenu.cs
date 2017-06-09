@@ -4,18 +4,18 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class MainMenu : MonoBehaviour {
+/*public class MainMenu : MonoBehaviour {
 
     public  Canvas mainMenu;
     public  Canvas credit;
 
     // Use this for initialization
-    void Start () {
+ /*   void Start () {
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	/*void Update () {
 		
 	}
 
@@ -28,7 +28,7 @@ public class MainMenu : MonoBehaviour {
     {
         SceneManager.LoadScene("MTL2");
     }
-	public void StartGame(2)
+	public void StartGame()
 	{
 		SceneManager.LoadScene("MTL2");
 	}
@@ -44,3 +44,4 @@ public class MainMenu : MonoBehaviour {
         credit.gameObject.SetActive(true);
     }
 }
+*/
